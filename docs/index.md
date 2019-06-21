@@ -13,8 +13,8 @@ permalink: /
 Kumpulan penggunaan _jupyter notebook_ pada bidang hidrologi dan contoh penggunaan [hidrokit]. 
 {: .fs-6 .fw-300 }
 
-[Lihat Kumpulan _Notebook_](/kumpulan-notebook){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Masukkan _Notebook_](/panduan/memasukkan-notebook){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
+[Lihat Kumpulan _Notebook_](kumpulan-notebook){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Masukkan _Notebook_](panduan/memasukkan-notebook){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
 
 ---
 Kunjungi
