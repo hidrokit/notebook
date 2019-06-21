@@ -112,6 +112,7 @@ Jika Anda ingin mengunggah notebook lagi setelah melakukan _Pull Request_ pertam
 Ini merupakan solusi paling cepat yaitu menghapus _repo_ Anda dan melakukan langkah *Pull Request* sebagaimana pengalaman pertama Anda. Langkah ini tidak memerlukan pengalaman dalam menggunakan Git/GitHub, jadi ini merupakan solusi paling sederhana bagi kebanyakan orang. 
 
 #### _Delete Repository_
+{: .no-toc}
 - Klik "Settings" pada halaman _repo_ Anda. 
 <div align="center">
     <img src="../../assets/images/panduan/delete_fork_00.png"><br>
@@ -129,7 +130,7 @@ Ini merupakan solusi paling cepat yaitu menghapus _repo_ Anda dan melakukan lang
 
 Catatan: Menghapus _repo_ Anda tidak menghilangkan hasil kontribusi Anda sebelumnya di _repo_ hidrokit-nb. 
 
-#### _Rebase/Merged Repository_
+### _Rebase/Merged Repository_
 
 Ini memerlukan pengetahun/pengalaman Git. Jika Anda bukan _developer_, kami sarankan untuk menggunakan langkah diatas. Jika Anda _developer_, Anda bisa membantu mengembangkan bagian ini. 
 

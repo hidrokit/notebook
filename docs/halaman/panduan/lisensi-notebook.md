@@ -6,8 +6,9 @@ parent: Panduan
 permalink: /panduan/lisensi-notebook
 ---
 
-<div class="code-example" markdown="1">
+<div align="justify" markdown="1">
 **Halaman ini hanya menyertakan informasi terkait lisensi. Untuk legalitas, harap hubungi pengacara atau lembaga hukum yang terkait.**
+{: .label .label-yellow .fs-1}
 </div>
 
 # Daftar isi
@@ -16,6 +17,7 @@ permalink: /panduan/lisensi-notebook
 1. TOC
 {:toc}
 
+---
 ## Informasi Lisensi
 
 Seluruh notebook diharapkan menyertakan informasi lisensi. Hal ini diperlukan untuk memastikan aturan penggunaan kode/data yang diberikan oleh notebook. Lisensi sangat penting untuk keberlangsungan proyek _open-source_. 
@@ -25,6 +27,7 @@ Perlu diingat, dengan mengunggahnya notebook ke repo ini berarti perlu diadari b
 Bacaan lebih lanjut:
 - [The Legal Side of Open Source](https://opensource.guide/legal/)
 
+---
 ## Apa lisensi yang harus digunakan?
 
 Untuk menentukan lisensi notebook, bisa mengunjungi [Choose a License](https://choosealicense.com/) untuk memahami lisensi apa yang tepat. Perlu dicatat bahwa notebook bisa terdiri dari **kode dan data**. Lisensi kode dan data terpisah satu sama lain. 
@@ -35,6 +38,7 @@ Kami menyarankan untuk menggunakan lisensi ini dalam notebook:
 
 Kedua lisensi tersebut memastikan bahwa produk (kode/data) dapat dikembangkan lebih lanjut tanpa mengabaikan kontribusi pemilik produk.
 
+---
 ## Menulis lisensi pada notebook
 
 Setelah menentukan lisensi, pemilik bisa menambahkan informasi lisensi dalam satu baris _markdown_ dalam notebook (diawal/diakhir).
