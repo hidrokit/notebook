@@ -1,12 +1,12 @@
 # Site setting
 title: Hidrokit Notebook
 description: Kumpulan jupyter notebook hidrologi
-baseurl: "/hidrokit-nb"
-# url: "http://taruma.github.com"
+baseurl: ""
+url: ""
 
 # Theme
-# theme: "just-the-docs"
-remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
+# remote_theme: pmarsceill/just-the-docs
 
 # Theme settings
 # Color scheme currently only supports "dark" or nil (default)
