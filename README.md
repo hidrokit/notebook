@@ -1,29 +1,43 @@
-# Hidrokit Notebook (`hidrokit-nb`)
+<!-- Tambah logo -->
 
-`hidrokit-nb` merupakan kumpulan _notebook_ contoh penggunaan `hidrokit` dan penggunaan *jupyter notebook* dalam bidang hidrologi. 
+# Hidrokit Notebook
 
-# Penggunaan
+**Hidrokit Notebook** (hidrokit-nb) merupakan kumpulan _jupyter notebook_ mengenai bidang hidrologi dan penggunaan [hidrokit]. 
 
-Untuk melihat _notebook_ yang tersedia di dalam _repository_ ini disarankan menggunakan [NBViewer](https://nbviewer.jupyter.org/).
+## Tujuan
 
-Untuk _notebook_ yang menggunakan paket `hidrokit`, harus melakukan instalasi `hidrokit`. [Kunjungi _repo_ `hidrokit` untuk informasi lebih lanjut](https://github.com/taruma/hidrokit).
+Punya _notebook_ yang ingin dimasukkan? Baca [Kontribusi](#Kontribusi). 
 
-# Struktur Folder
-
-Dalam _repo_ ini terdiri beberapa folder:
-- `_old`: berisikan _notebook_ yang digunakan pada _repo_ `hidrokit` sebelum versi 0.1.3.
-- `data`: berisikan data-data publik. 
-- `hidrokit`: berisikan _notebook_ penjelasan penggunaan fungsi/modul paket `hidrokit`.
-- `demo`: berisikan _notebook_ yang mendemonstrasikan penggunaan _python_ dan/atau `hidrokit` dalam kasus lapangan.
-- `dev`: berisikan _notebook_ yang berstatus dalam tahap pengembangan atau tempat bereksperimen _python_/`hidrokit`.
+----
 
 # Kontribusi
 
-Aturan berkontribusi sama dengan aturan berkontribusi di proyek `hidrokit`. [Kunjungi **Berkontribusi** untuk informasi lebih lanjut](https://github.com/taruma/hidrokit/wiki/Berkontribusi).
+## Templat _notebook_
 
-Segala pembahasan/kontribusi mengenai _notebook_ dilakukan pada _repo_ ini. 
+Tidak ada aturan dalam format _notebook_, akan tetapi diminta untuk menyertakan informasi berikut:
+1. Lisensi (baca [Lisensi](#Lisensi)).
+2. Deskripsi _notebook_ (Judul, Ringkasan).
+3. Pemilik/penulis _notebook_. 
+<!-- Isi notebook template yang direkomendasikan -->
 
-# Tautan Penting
+## Memasukkan _notebook_
 
-- [**_Repository `hidrokit`_**](https://github.com/taruma/hidrokit).
-- [**Panduan berkontribusi**](https://github.com/taruma/hidrokit/wiki/Berkontribusi).
+Untuk memasukkan _notebook_ buatan Anda. Ikuti langkah pada halaman [memasukkan _notebook_ ke hidrokit-nb](). 
+
+Mohon hanya memasukkan _notebook_ yang **Anda miliki** atau telah memiliki **ijin oleh pemilik aslinya**.
+
+
+<!--  -->
+
+# Lisensi
+
+Lisensi _notebook_ dipegang oleh pemiliknya. Jika tidak dinyatakan lisensinya akan dinyatakan [NoLicense]. **Harap selalu menyertakan lisensi _notebook_ Anda.**
+
+Lisensi yang disarankan adalah [MIT] untuk kode dan [CC-BY-4.0] untuk data/dokumentasi. 
+
+<!-- LINK -->
+[NoLicense]: https://choosealicense.com/no-permission/
+[MIT]: https://choosealicense.com/licenses/mit/
+[CC-BY-4.0]: https://choosealicense.com/licenses/cc-by-4.0/
+[hidrokit]: https://taruma.github.io/hidrokit
+
