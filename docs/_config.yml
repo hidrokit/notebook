@@ -17,7 +17,7 @@ search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Repository @ gh-pages":
-    - "//github.com/taruma/hidrokit-nb/tree/gh-pages"
+  "Punya ide untuk situs ini?":
+    - "//github.com/taruma/hidrokit-nb/issues/new/choose"
 
 

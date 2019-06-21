@@ -1,7 +1,7 @@
 ---
 name: "Site Issues"
-about: "Isu untuk situs hidrokit-nb"
+about: "Ide/Masalah untuk situs hidrokit-nb"
 title: "site: "
 ---
 
-Jelaskan isu anda.
+Jelaskan pertanyaan/ide/masukan/kritik/saran/masalah Anda.

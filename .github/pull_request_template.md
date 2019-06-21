@@ -1,4 +1,4 @@
-### Ringkasan Permintaan Penggabungan (_Pull Request_ (PR))
+### Ringkasan Permintaan Penggabungan _Pull Request_ (PR)
 
 Jelaskan secara ringkas apa PR ini.
 

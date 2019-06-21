@@ -4,4 +4,4 @@ about: "Punya masalah/pertanyaan dengan GitHub?"
 title: "gh: "
 ---
 
-Apa yang mau ditanyakan/diskusikan?
+Jelaskan pertanyaan/ide/masukan/kritik/saran/masalah Anda.
