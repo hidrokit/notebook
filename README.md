@@ -4,11 +4,11 @@
 
 # Hidrokit Notebook
 
-**Hidrokit Notebook** (hidrokit-nb) merupakan _repository_ kumpulan _jupyter notebook_ mengenai bidang hidrologi dan penggunaan [hidrokit]. 
+**Hidrokit Notebook** (hidrokit-nb) merupakan _repository_ kumpulan _jupyter notebook_ yang dapat digunakan pada bidang hidrologi dan contoh penggunaan [hidrokit]. 
 
 ## Tujuan
 
-Repository ini dapat digunakan sebagai portal untuk membagikan _jupyter notebook_ Anda. Dengan membagikan hasil kerja anda, Anda membuka kesempatan untuk orang lain mengembangankan hasil kerja Anda. Baca [Lisensi Notebook](https://taruma.github.io/hidrokit-nb/panduan/lisensi-notebook) untuk informasi lisensi notebook.
+Repository ini dapat digunakan sebagai portal untuk membagikan _jupyter notebook_ Anda. Dengan membagikan hasil kerja Anda, Anda membuka kesempatan untuk orang lain mengembangkan hasil kerja Anda. Baca [Lisensi Notebook](https://taruma.github.io/hidrokit-nb/panduan/lisensi-notebook) untuk informasi lisensi notebook.
 
 ## Mengunggah Notebook
 
