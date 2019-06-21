@@ -4,12 +4,20 @@ title: Kumpulan Notebook
 nav_order: 2
 permalink: /kumpulan-notebook
 ---
-
+<div align="center" markdown="1">
 # Kumpulan Notebook
-{: .no_toc }
+{: .no_toc}
+</div>
 
-Halaman utama yang berisikan seluruh daftar _notebook_ yang terdapat dalam [repo hidrokit-nb](https://github.com/taruma/hidrokit-nb). Terdapat tiga label _notebook_ yaitu [Umum](#umum), [Hidrokit](#hidrokit), dan [Demo](#demo). 
-{: .fs-6 .fw-300 }
+<div align="justify" markdown="1">
+> "Jupyter notebook merupakan halaman web yang mampu membuat dan membagikan dokumen yang memiliki _live code_, persamaan, visualisasi, atau teks narasi. Penggunaannya berupa _data cleaning and transformation_, simulasi numerik, pemodelan statistik, visualisasi data, _machine learning_, dll." - Project Jupyter, [jupyter.org](https://jupyter.org)
+{: .fs-5}
+</div>
+
+<div align="center" markdown="1">
+[Lis Notebook via NBViewer](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/tree/master/notebook/){: .btn .btn-blue .fs-4 .mb-4 .mb-md-0 .mr-2 }
+</div>
+
 
 ## Daftar isi
 {: .no_toc .text-delta }
@@ -19,19 +27,19 @@ Halaman utama yang berisikan seluruh daftar _notebook_ yang terdapat dalam [repo
 
 ---
 ## Umum
+{: .label .label-blue}
 
 Kumpulan _notebook_ yang menampilkan kegunaan python dalam bidang hidrologi: 
 
 ---
 ## Hidrokit
-{: .d-inline-block}
-*work in progress*
 {: .label .label-green}
 
 Kumpulan _notebook_ yang menggunakan fungsi dasar `hidrokit`:
 
 ---
 ## Demo
+{: .label .label-yellow}
 
 Kumpulan _notebook_ yang menerapkan dalam kasus lapangan:
 
@@ -39,8 +47,6 @@ Kumpulan _notebook_ yang menerapkan dalam kasus lapangan:
 
 ---
 ## Arsip
-{: .d-inline-block}
-DEPRECATED
 {: .label .label-red}
 
 
