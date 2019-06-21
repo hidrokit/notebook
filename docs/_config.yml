@@ -1,0 +1,21 @@
+# Site setting
+title: Hidrokit Notebook
+description: Kumpulan jupyter notebook hidrologi
+
+
+# Theme
+remote_theme: pmarsceill/just-the-docs
+
+# Theme settings
+# Color scheme currently only supports "dark" or nil (default)
+color_scheme: nil
+
+# Enable or disable the site search
+# search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "Repository @ gh-pages":
+    - "//github.com/taruma/hidrokit-nb/tree/gh-pages"
+
+
