@@ -1,43 +1,35 @@
-<!-- Tambah logo -->
+<div align="center">
+    <img src="hidrokit-nb-800x200.jpg">
+</div>
 
 # Hidrokit Notebook
 
-**Hidrokit Notebook** (hidrokit-nb) merupakan kumpulan _jupyter notebook_ mengenai bidang hidrologi dan penggunaan [hidrokit]. 
+**Hidrokit Notebook** (hidrokit-nb) merupakan _repository_ kumpulan _jupyter notebook_ mengenai bidang hidrologi dan penggunaan [hidrokit]. 
 
 ## Tujuan
 
-Punya _notebook_ yang ingin dimasukkan? Baca [Kontribusi](#Kontribusi). 
+Repository ini dapat digunakan sebagai portal untuk membagikan _jupyter notebook_ Anda. Dengan membagikan hasil kerja anda, Anda membuka kesempatan untuk orang lain mengembangankan hasil kerja Anda. Baca [Lisensi Notebook](https://taruma.github.io/hidrokit-nb/panduan/lisensi-notebook) untuk informasi lisensi notebook.
+
+## Mengunggah Notebook
+
+Langkah-langkah untuk mengunggah notebook bisa dibaca di [Mengunggah Notebook](https://taruma.github.io/hidrokit-nb/panduan/mengunggah-notebook).
 
 ----
 
-# Kontribusi
+## Tentang _repository_ hidrokit-nb
 
-## Templat _notebook_
+Situs [hidrokit-nb] didukung oleh [Github Pages](https://pages.github.com/). Jekyll theme yang digunakan adalah [Just The Docs](https://pmarsceill.github.io/just-the-docs/).
 
-Tidak ada aturan dalam format _notebook_, akan tetapi diminta untuk menyertakan informasi berikut:
-1. Lisensi (baca [Lisensi](#Lisensi)).
-2. Deskripsi _notebook_ (Judul, Ringkasan).
-3. Pemilik/penulis _notebook_. 
-<!-- Isi notebook template yang direkomendasikan -->
+### Berkontribusi
 
-## Memasukkan _notebook_
-
-Untuk memasukkan _notebook_ buatan Anda. Ikuti langkah pada halaman [memasukkan _notebook_ ke hidrokit-nb](). 
-
-Mohon hanya memasukkan _notebook_ yang **Anda miliki** atau telah memiliki **ijin oleh pemilik aslinya**.
+Kontribusi dalam proyek ini dapat berupa memperbaiki situs, dokumentasi, mengunggah notebook, diskusi, ide, dll. Jika ada ide/saran/kritik yang menarik, jangan ragu untuk langsung membuat isu [disini](https://github.com/taruma/hidrokit-nb/issues/new/choose) atau _pull request_.
 
 
-<!--  -->
+---
+## Lisensi
 
-# Lisensi
-
-Lisensi _notebook_ dipegang oleh pemiliknya. Jika tidak dinyatakan lisensinya akan dinyatakan [NoLicense]. **Harap selalu menyertakan lisensi _notebook_ Anda.**
-
-Lisensi yang disarankan adalah [MIT] untuk kode dan [CC-BY-4.0] untuk data/dokumentasi. 
+Proyek ini dibawah lisensi MIT. Lisensi notebook yang diunggah ditentukan oleh pengunggah/pemilik (baca: [Lisensi Notebook](https://taruma.github.io/hidrokit-nb/panduan/lisensi-notebook)).
 
 <!-- LINK -->
-[NoLicense]: https://choosealicense.com/no-permission/
-[MIT]: https://choosealicense.com/licenses/mit/
-[CC-BY-4.0]: https://choosealicense.com/licenses/cc-by-4.0/
 [hidrokit]: https://taruma.github.io/hidrokit
-
+[hidrokit-nb]: https://taruma.github.io/hidrokit-nb
