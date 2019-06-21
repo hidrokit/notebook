@@ -25,5 +25,4 @@ Segala pembahasan/kontribusi mengenai _notebook_ dilakukan pada _repo_ ini.
 
 # Tautan Penting
 
-- [**_Repository `hidrokit`_**](https://github.com/taruma/hidrokit).
-- [**Panduan berkontribusi**](https://github.com/taruma/hidrokit/wiki/Berkontribusi).
+Sesuatu
