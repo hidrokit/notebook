@@ -1,29 +1,35 @@
-# Hidrokit Notebook (`hidrokit-nb`)
+<div align="center">
+    <img src="hidrokit-nb-800x200.jpg">
+</div>
 
-`hidrokit-nb` merupakan kumpulan _notebook_ contoh penggunaan `hidrokit` dan penggunaan *jupyter notebook* dalam bidang hidrologi. 
+# Hidrokit Notebook
 
-# Penggunaan
+**Hidrokit Notebook** (hidrokit-nb) merupakan _repository_ kumpulan _jupyter notebook_ yang dapat digunakan pada bidang hidrologi dan contoh penggunaan [hidrokit]. 
 
-Untuk melihat _notebook_ yang tersedia di dalam _repository_ ini disarankan menggunakan [NBViewer](https://nbviewer.jupyter.org/).
+## Tujuan
 
-Untuk _notebook_ yang menggunakan paket `hidrokit`, harus melakukan instalasi `hidrokit`. [Kunjungi _repo_ `hidrokit` untuk informasi lebih lanjut](https://github.com/taruma/hidrokit).
+Repository ini dapat digunakan sebagai portal untuk membagikan _jupyter notebook_ Anda. Dengan membagikan hasil kerja Anda, Anda membuka kesempatan untuk orang lain mengembangkan hasil kerja Anda. Baca [Lisensi Notebook](https://taruma.github.io/hidrokit-nb/panduan/lisensi-notebook) untuk informasi lisensi notebook.
 
-# Struktur Folder
+## Mengunggah Notebook
 
-Dalam _repo_ ini terdiri beberapa folder:
-- `_old`: berisikan _notebook_ yang digunakan pada _repo_ `hidrokit` sebelum versi 0.1.3.
-- `data`: berisikan data-data publik. 
-- `hidrokit`: berisikan _notebook_ penjelasan penggunaan fungsi/modul paket `hidrokit`.
-- `demo`: berisikan _notebook_ yang mendemonstrasikan penggunaan _python_ dan/atau `hidrokit` dalam kasus lapangan.
-- `dev`: berisikan _notebook_ yang berstatus dalam tahap pengembangan atau tempat bereksperimen _python_/`hidrokit`.
+Langkah-langkah untuk mengunggah notebook bisa dibaca di [Mengunggah Notebook](https://taruma.github.io/hidrokit-nb/panduan/mengunggah-notebook).
 
-# Kontribusi
+----
 
-Aturan berkontribusi sama dengan aturan berkontribusi di proyek `hidrokit`. [Kunjungi **Berkontribusi** untuk informasi lebih lanjut](https://github.com/taruma/hidrokit/wiki/Berkontribusi).
+## Tentang _repository_ hidrokit-nb
 
-Segala pembahasan/kontribusi mengenai _notebook_ dilakukan pada _repo_ ini. 
+Situs [hidrokit-nb] didukung oleh [Github Pages](https://pages.github.com/). Jekyll theme yang digunakan adalah [Just The Docs](https://pmarsceill.github.io/just-the-docs/).
 
-# Tautan Penting
+### Berkontribusi
 
-- [**_Repository `hidrokit`_**](https://github.com/taruma/hidrokit).
-- [**Panduan berkontribusi**](https://github.com/taruma/hidrokit/wiki/Berkontribusi).
+Kontribusi dalam proyek ini dapat berupa memperbaiki situs, dokumentasi, mengunggah notebook, diskusi, ide, dll. Jika ada ide/saran/kritik yang menarik, jangan ragu untuk langsung membuat isu [disini](https://github.com/taruma/hidrokit-nb/issues/new/choose) atau _pull request_.
+
+
+---
+## Lisensi
+
+Proyek ini dibawah lisensi MIT. Lisensi notebook yang diunggah ditentukan oleh pengunggah/pemilik (baca: [Lisensi Notebook](https://taruma.github.io/hidrokit-nb/panduan/lisensi-notebook)).
+
+<!-- LINK -->
+[hidrokit]: https://taruma.github.io/hidrokit
+[hidrokit-nb]: https://taruma.github.io/hidrokit-nb
