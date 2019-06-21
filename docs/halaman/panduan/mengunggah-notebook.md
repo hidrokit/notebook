@@ -26,7 +26,7 @@ Halaman ini merupakan panduan dalam mengunggah notebook ke repo hidrokit-nb. Tid
 ---
 ## Unggah Notebook ke hidrokit-nb
 
-Jika ini bukan pengalaman pertama dalam mengunggah notebook. Baca [Unggah dokumen lagi](#unggah-lagi).
+Jika ini bukan pengalaman pertama dalam mengunggah notebook. Baca [Pull Request ke-dua](#pull-request-ke-dua).
 
 ### *Fork hidrokit-nb*
 - Masuk akun [GitHub](https://github.com/login).
@@ -78,12 +78,62 @@ Jika ini bukan pengalaman pertama dalam mengunggah notebook. Baca [Unggah dokume
 
 Jika notebook yang ingin diunggah sudah tersimpan pada _repo_ Anda. Saatnya menggabungkan hasil unggahan/perubahan yang Anda lakukan dengan _repo_ hidrokit-nb. 
 
-- Buka halaman [GitHub hidrokit-nb](#)
+- Dari halaman _forked repository_ yang telah Anda buat klik **New pull request**. Alamat _forked repository_ Anda berupa `https://github.com/<username>/hidrokit-nb`.
+<div align="center">
+    <img src="../../assets/images/panduan/unggah_notebook_08.png"><br>
+</div>
+
+- Akan muncul tampilan "Comparing changes". Klik **compare accross forks** untuk membandingkan _repo_ Anda dengan _repo_ hidrokit-nb. Pastikan _repo_ hidrokit di posisi kiri dan _repo_ Anda di posisi kanan (perhatikan tanda panah ⬅ yang berarti menggabungkan kanan ke kiri). Bandingkan cabang **master**. Klik **Create Pull Request** untuk ke langkah berikutnya.
+<div align="center">
+    <img src="../../assets/images/panduan/unggah_notebook_09.png"><br>
+</div>
+Jika mendapatkan pesan "Can't automatically merge". Abaikan dan lanjut dengan klik **Create Pull Request**.
+<div align="center">
+    <img src="../../assets/images/panduan/unggah_notebook_10.png"><br>
+</div>
+
+- Isi _Pull Request_ dengan informasi notebook Anda. Untuk judul isi sejelas dan sesingkat mungkin. Centang pilihan "Allow edit from maintainers" untuk memberikan akses pengelola mengubah PR. Klik **Create Pull Request**.
+<div align="center">
+    <img src="../../assets/images/panduan/unggah_notebook_11.png"><br>
+</div>
+
+- Selamat! 🎉🎉 untuk membuat _Pull Request_ pertama Anda. Dari sini, pengelola akan memeriksa PR Anda. Jika terdapat konflik, pengelola akan memberi tahu langkah selanjutnya. Jika semuanya bisa langsung digabungkan terimakasih untuk berkontribusi di proyek ini. Kami menanti kontribusi Anda kedepan. 😊
+<div align="center">
+    <img src="../../assets/images/panduan/unggah_notebook_12.png"><br>
+</div>
 
 ---
-## Unggah lagi
-{: .no_toc}
+## *Pull Request* ke-dua
 
---
+Jika Anda ingin mengunggah notebook lagi setelah melakukan _Pull Request_ pertama Anda, kemungkinan akan menemukan konflik pada _repo_ Anda dikarenakan _repo_ hidrokit-nb akan terus berkembang dan diperbarui seiringnya waktu, sehingga _repo_ Anda bisa tertinggal _update_ dari _repo_ hidrokit-nb. Untuk mengatasi konflik ini ada berbagai cara untuk mengunggah notebook lagi.
+
+### _Delete Forked Repository_
+
+Ini merupakan solusi paling cepat yaitu menghapus _repo_ Anda dan melakukan langkah *Pull Request* sebagaimana pengalaman pertama Anda. Langkah ini tidak memerlukan pengalaman dalam menggunakan Git/GitHub, jadi ini merupakan solusi paling sederhana bagi kebanyakan orang. 
+
+#### _Delete Repository_
+- Klik "Settings" pada halaman _repo_ Anda. 
+<div align="center">
+    <img src="../../assets/images/panduan/delete_fork_00.png"><br>
+</div>
+
+- _Scroll down_ ke bagian paling bawah halaman. Pada "Danger Zone", klik **Delete this repository**
+<div align="center">
+    <img src="../../assets/images/panduan/delete_fork_01.png"><br>
+</div>
+
+- Ketik nama _repo_ Anda yaitu `hidrokit-nb`. Dan lanjutkan dengan klik **I understand the consequences, delete this repository**
+<div align="center">
+    <img src="../../assets/images/panduan/delete_fork_02.png"><br>
+</div>
+
+Catatan: Menghapus _repo_ Anda tidak menghilangkan hasil kontribusi Anda sebelumnya di _repo_ hidrokit-nb. 
+
+#### _Rebase/Merged Repository_
+
+Ini memerlukan pengetahun/pengalaman Git. Jika Anda bukan _developer_, kami sarankan untuk menggunakan langkah diatas. Jika Anda _developer_, Anda bisa membantu mengembangkan bagian ini. 
+
+---
 ## Bacaan lebih lanjut
 - [Forking Project](https://guides.github.com/activities/forking/)
+
