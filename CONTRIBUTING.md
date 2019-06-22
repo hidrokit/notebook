@@ -28,6 +28,7 @@ Bentuk kontribusi GitHub/Dokumentasi berupa:
 Bentuk kontribusi Situs berupa: 
 - Perbaikan/Mengoreksi penulisan/kode.
 - Memperbagus/mengembangkan situs.
+- Menambah halaman baru.
 - Membantu menyelesaikan isu berlabel site yang dibuat. 
 
 Situs hidrokit-nb dibuat menggunakan Jekyll & GitHub Pages. Untuk instalasi pada mesin lokal baca [README pada direktori `docs/`](docs/).
