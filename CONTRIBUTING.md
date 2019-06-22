@@ -30,7 +30,7 @@ Bentuk kontribusi Situs berupa:
 - Memperbagus/mengembangkan situs.
 - Membantu menyelesaikan isu berlabel site yang dibuat. 
 
-Situs hidrokit-nb dibuat menggunakan Jekyll & GitHub Pages. Untuk instalasi pada mesin lokal baca [README pada direktori `docs/`](docs/README.md).
+Situs hidrokit-nb dibuat menggunakan Jekyll & GitHub Pages. Untuk instalasi pada mesin lokal baca [README pada direktori `docs/`](docs/).
 
 ## Repository Tree
 
