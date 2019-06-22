@@ -1,6 +1,8 @@
 # Site setting
 title: Hidrokit Notebook
 description: Kumpulan jupyter notebook hidrologi
+
+# Remote Setting
 baseurl: "/hidrokit-nb"
 # url: "http://taruma.github.com"
 
@@ -13,11 +15,10 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: nil
 
 # Enable or disable the site search
+# Use this command to update index: bundle exec just-the-docs rake search:init
 search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
   "Punya ide untuk situs ini?":
     - "//github.com/taruma/hidrokit-nb/issues/new/choose"
-
-

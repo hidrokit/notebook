@@ -19,7 +19,7 @@ Halaman ini merupakan panduan dalam mengunggah notebook ke repo hidrokit-nb. Tid
 
 1. Notebook yang dimaksud adalah _file_ berekstensi `.ipynb`.
 1. Menamai _file_ dengan format `pemilik-judul.ipynb` atau `pemilik-judul-v0.ipynb` jika memiliki nomor versi (isi spasi dengan `-`). Gunakan nama _username_ GitHub untuk konsistensi.
-1. Pastikan notebook sudah tertera lisensinya (baca: [Lisensi Notebook](/panduan/lisensi-notebook)).
+1. Pastikan notebook sudah tertera lisensinya (baca: [Lisensi Notebook]({{ site.baseurl }}{% link halaman/panduan/lisensi-notebook.md %})).
 1. Memiliki akun GitHub (jika belum, [daftar disini](https://github.com/join)).
 1. Dilakukan melalui komputer (_desktop_).
 
@@ -137,4 +137,5 @@ Ini memerlukan pengetahun/pengalaman Git. Jika Anda bukan _developer_, kami sara
 ---
 ## Bacaan lebih lanjut
 - [Forking Project](https://guides.github.com/activities/forking/)
-
+- [Pull Requests](https://help.github.com/en/articles/about-pull-requests)
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/)
