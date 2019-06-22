@@ -1,43 +1,73 @@
-<!-- Tambah logo -->
+# README SITUS
 
-# Hidrokit Notebook
+Situs hidrokit-nb dibuat menggunakan Jekyll & GitHub Pages dengan menggunakan `remote-theme` dari Just the Docs oleh Patrick Marsceill. Disarankan untuk **membaca** manual penggunaan tema di [Just the Docs](https://pmarsceill.github.io/just-the-docs/) agar mengetahui fitur yang tersedia.
 
-**Hidrokit Notebook** (hidrokit-nb) merupakan kumpulan _jupyter notebook_ mengenai bidang hidrologi dan penggunaan [hidrokit]. 
+Dianjurkan untuk melakukan instalasi pada mesin lokal sebelum melakukan pull request agar memudahkan saat melakukan pengembangan/perbaikan. Baca bagian [instalasi lokal](#Instalasi-lokal) untuk lebih lanjut.
 
-## Tujuan
+Untuk memulai kontribusi dalam situs, berikut yang harus dipersiapkan/diketahui:
+- Terbiasa dengan penulisan Markdown, HTML, dan CSS.
+- Pengetahuan tentang HTML dan CSS.
+- Sudah memasang/instalasi Ruby, Jekyll, dan Bundler.
+- Mengetahui menggunakan Jekyll (*front matter* dan *_config.yml*)
+- Diasumsikan sudah memahami menggunakan Git dan Github.
 
-Punya _notebook_ yang ingin dimasukkan? Baca [Kontribusi](#Kontribusi). 
+## Struktur Direktori
 
-----
+```
+hidrokit-nb/docs
+|   Gemfile
+|   index.md
+|   README.md
+|   _config.yml
+|   _config_local.yml
+|   
++---assets
+|   +---images
+|   |   +---favicon
+|   |   \---panduan
+|   \---js
+|           
+\---halaman
+    |   kumpulan-notebook.md
+    |   
+    \---panduan
+            lisensi-notebook.md
+            mengunggah-notebook.md
+            panduan.md
+```
 
-# Kontribusi
+Keterangan:
+- `Gemfile`: file Gem yang digunakan untuk instalasi Jekyll.
+- `index.md`: halaman depan situs.
+- `_config.yml`: konfigurasi yang digunakan saat _deployment_ di GitHub.
+- `_config_local.yml`: konfigurasi yang digunakan untuk mesin lokal.
+- `assets/`: _Media Directory_ | Direktori khusus penyimpanan media.
+  - `images/`: berisikan media gambar yang digunakan untuk situs.
+  - `js/`: berisikan file yang digunakan untuk fitur pencarian di situs.
+- `halaman/`: _Page Directory_ | Direktori khusus untuk seluruh halaman dalam situs.
+  - `panduan/`: Berisikan halaman panduan/bantuan/tutorial/tips.
 
-## Templat _notebook_
+Direktori/files bisa ditambahkan jika diperlukan.
 
-Tidak ada aturan dalam format _notebook_, akan tetapi diminta untuk menyertakan informasi berikut:
-1. Lisensi (baca [Lisensi](#Lisensi)).
-2. Deskripsi _notebook_ (Judul, Ringkasan).
-3. Pemilik/penulis _notebook_. 
-<!-- Isi notebook template yang direkomendasikan -->
+## Instalasi lokal
 
-## Memasukkan _notebook_
+Langkah ini tidak jauh berbeda dengan yang ada di halaman [Just the Docs](https://pmarsceill.github.io/just-the-docs/). Diasumsikan bahwa Ruby beserta Jekyll dan Bundler sudah terinstalasi, baca [Quickstart](https://jekyllrb.com/docs/) untuk informasi lebih lanjut.
 
-Untuk memasukkan _notebook_ buatan Anda. Ikuti langkah pada halaman [memasukkan _notebook_ ke hidrokit-nb](). 
+1. Buka *command prompt/terminal*, pastikan sudah berada di direktori `hidrokit-nb/docs/`. Masukan perintah berikut untuk melakukan instalasi:
+```bash
+$ bundle install
+```
 
-Mohon hanya memasukkan _notebook_ yang **Anda miliki** atau telah memiliki **ijin oleh pemilik aslinya**.
+2. Jalankan server lokal dengan menggunakan konfigurasi lokal.
 
+```bash
+$ bundle exec jekyll serve --config _config_local.yml
+```
 
-<!--  -->
+3. Buka browser dan masukkan halaman [http://localhost:4000](http://localhost:4000)
 
-# Lisensi
+4. *(Opsional)* Memperbarui file index untuk fitur pencarian.
 
-Lisensi _notebook_ dipegang oleh pemiliknya. Jika tidak dinyatakan lisensinya akan dinyatakan [NoLicense]. **Harap selalu menyertakan lisensi _notebook_ Anda.**
-
-Lisensi yang disarankan adalah [MIT] untuk kode dan [CC-BY-4.0] untuk data/dokumentasi. 
-
-<!-- LINK -->
-[NoLicense]: https://choosealicense.com/no-permission/
-[MIT]: https://choosealicense.com/licenses/mit/
-[CC-BY-4.0]: https://choosealicense.com/licenses/cc-by-4.0/
-[hidrokit]: https://taruma.github.io/hidrokit
-
+```bash
+$ bundle exec just-the-docs rake search:init
+```
