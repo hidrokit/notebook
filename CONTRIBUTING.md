@@ -1,5 +1,10 @@
 # Berkontribusi
 
+- [Berkontribusi](#Berkontribusi)
+  - [Kode etik](#Kode-etik)
+  - [Bentuk Kontribusi](#Bentuk-Kontribusi)
+  - [Repository Tree](#Repository-Tree)
+
 ## Kode etik
 
 Proyek ini dan seluruh yang berpartisipasi harus mengikuti [**Kode Etik** yang berlaku](CODE_OF_CONDUCT.md).
@@ -26,7 +31,6 @@ Bentuk kontribusi Situs berupa:
 - Membantu menyelesaikan isu berlabel site yang dibuat. 
 
 Situs hidrokit-nb dibuat menggunakan Jekyll & GitHub Pages. Untuk instalasi pada mesin lokal baca [README pada direktori `docs/`](docs/README.md).
-
 
 ## Repository Tree
 
