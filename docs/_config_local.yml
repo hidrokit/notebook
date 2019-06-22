@@ -20,5 +20,5 @@ search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Punya ide untuk situs ini?":
-    - "//github.com/taruma/hidrokit-nb/issues/new/choose"
+  "View in GitHub":
+    - "//github.com/taruma/hidrokit-nb"
