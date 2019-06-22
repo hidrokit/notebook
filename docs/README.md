@@ -1,10 +1,10 @@
 # README SITUS
 
-Situs hidrokit-nb dibuat menggunakan Jekyll & GitHub Pages dengan menggunakan `remote-theme` dari Just the Docs oleh Patrick Marsceill. Disarankan untuk **membaca** manual penggunaan tema di [Just the Docs](https://pmarsceill.github.io/just-the-docs/) agar mengetahui fitur dan 
+Situs hidrokit-nb dibuat menggunakan Jekyll & GitHub Pages dengan menggunakan `remote-theme` dari Just the Docs oleh Patrick Marsceill. Disarankan untuk **membaca** manual penggunaan tema di [Just the Docs](https://pmarsceill.github.io/just-the-docs/) agar mengetahui fitur yang tersedia.
 
-Dianjurkan untuk melakukan instalasi pada mesin lokal sebelum melakukan pull request. Baca bagian [instalasi lokal](#Instalasi-lokal) untuk lebih lanjut.
+Dianjurkan untuk melakukan instalasi pada mesin lokal sebelum melakukan pull request agar memudahkan saat melakukan pengembangan/perbaikan. Baca bagian [instalasi lokal](#Instalasi-lokal) untuk lebih lanjut.
 
-Untuk memulai kontribusi dalam situs berikut yang harus dipersiapkan/diketahui:
+Untuk memulai kontribusi dalam situs, berikut yang harus dipersiapkan/diketahui:
 - Terbiasa dengan penulisan Markdown, HTML, dan CSS.
 - Pengetahuan tentang HTML dan CSS.
 - Sudah memasang/instalasi Ruby, Jekyll, dan Bundler.
@@ -51,9 +51,9 @@ Direktori/files bisa ditambahkan jika diperlukan.
 
 ## Instalasi lokal
 
-Langkah ini tidak jauh berbeda dengan yang ada di halaman [Just the Docs](https://pmarsceill.github.io/just-the-docs/).
+Langkah ini tidak jauh berbeda dengan yang ada di halaman [Just the Docs](https://pmarsceill.github.io/just-the-docs/). Diasumsikan bahwa Ruby beserta Jekyll dan Bundler sudah terinstalasi, baca [Quickstart](https://jekyllrb.com/docs/) untuk informasi lebih lanjut.
 
-1. Buka command prompt/terminal, pastikan sudah berada di direktori `hidrokit-nb/docs/`. Masukan perintah berikut untuk melakukan instalasi:
+1. Buka *command prompt/terminal*, pastikan sudah berada di direktori `hidrokit-nb/docs/`. Masukan perintah berikut untuk melakukan instalasi:
 ```bash
 $ bundle install
 ```
@@ -66,7 +66,7 @@ $ bundle exec jekyll serve --config _config_local.yml
 
 3. Buka browser dan masukkan halaman [http://localhost:4000](http://localhost:4000)
 
-4. *(Opsional)* Memperbarui file index untuk fitur pencarian
+4. *(Opsional)* Memperbarui file index untuk fitur pencarian.
 
 ```bash
 $ bundle exec just-the-docs rake search:init
