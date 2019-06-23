@@ -6,7 +6,7 @@ description: "Kumpulan jupyter notebook hidrologi"
 permalink: /
 ---
 <div align="center">
-    <img src="assets/images/hidrokit-nb-800x200.jpg">
+    <img src="assets/images/hidrokit-nb-800x200.jpg" alt="Hidrokit Notebook Banner">
 </div>
 
 <div align="center" markdown="1">
