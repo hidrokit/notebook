@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # Theme
 gem "just-the-docs"
+gem "html-proofer"
 
 # Github
 gem "github-pages", group: :jekyll_plugins

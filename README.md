@@ -1,5 +1,7 @@
 <div align="center">
-    <img src="hidrokit-nb-800x200.jpg">
+    <a href="https://taruma.github.io/hidrokit-nb">
+    <img src="_assets/hidrokit-nb-800x200.jpg">
+    </a>
 </div>
 
 # Hidrokit Notebook
