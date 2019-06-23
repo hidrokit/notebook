@@ -33,12 +33,12 @@ Jika ini bukan pengalaman pertama dalam mengunggah notebook. Baca [Pull Request 
 - Buka tautan [https://github.com/taruma/hidrokit-nb/](https://github.com/taruma/hidrokit-nb/).
 - Klik ___Fork___ pada tepi kanan atas.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_00.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_00.png" alt="Fork Button"><br>
 </div>
 
 - Akan muncul proses _forking_.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_01.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_01.png" alt="Forking"><br>
 </div>
 
 - Tunggu proses _fork_ selesai.
@@ -46,32 +46,32 @@ Jika ini bukan pengalaman pertama dalam mengunggah notebook. Baca [Pull Request 
 ### _Upload Files_
 - Setelah proses _fork_ selesai. Klik `notebook` pada daftar _folder_.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_02.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_02.png" alt="clicking notebook directory"><br>
 </div>
 
 - Klik __Upload files__. Pastikan bahwa Anda berada di direktori `hidrokit-nb/notebook/`.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_03.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_03.png" alt="click upload files"><br>
 </div>
 
 - Akan terbuka halaman untuk mengunggah _file_. Anda bisa mengupload dengan cara ___drag files___ atau mengklik pilihan __choose your files__. Pastikan berada di direktori `hidrokit-nb/notebook`.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_04.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_04.png" alt="drag or upload files"><br>
 </div>
 
 - Pastikan bahwa notebook anda terunggah.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_05.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_05.png" alt="make sure file is uploaded"><br>
 </div>
 
 - Isi deskripsi _commit_ seperti pada gambar. Pastikan pilihan sudah seperti di gambar. Klik **Commit Changes**. 
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_06.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_06.png" alt="add commit message"><br>
 </div>
 
 - Hasil unggah dapat dilihat dengan membuka direktori `notebook`.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_07.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_07.png" alt="double check file is uploaded"><br>
 </div>
 
 ### _Pull Request_
@@ -80,27 +80,27 @@ Jika notebook yang ingin diunggah sudah tersimpan pada _repo_ Anda. Saatnya meng
 
 - Dari halaman _forked repository_ yang telah Anda buat klik **New pull request**. Alamat _forked repository_ Anda berupa `https://github.com/<username>/hidrokit-nb`.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_08.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_08.png" alt="new pull request"><br>
 </div>
 
 - Akan muncul tampilan "Comparing changes". Klik **compare accross forks** untuk membandingkan _repo_ Anda dengan _repo_ hidrokit-nb. Pastikan _repo_ hidrokit di posisi kiri dan _repo_ Anda di posisi kanan (perhatikan tanda panah ⬅ yang berarti menggabungkan kanan ke kiri). Bandingkan cabang **master**. Klik **Create Pull Request** untuk ke langkah berikutnya.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_09.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_09.png" alt="comparing changes"><br>
 </div>
 Jika mendapatkan pesan "Can't automatically merge". Abaikan dan lanjut dengan klik **Create Pull Request**.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_10.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_10.png" alt="if something is not right"><br>
 </div>
 
 - Isi _Pull Request_ dengan informasi notebook Anda. Untuk judul isi sejelas dan sesingkat mungkin. Centang pilihan "Allow edit from maintainers" untuk memberikan akses pengelola mengubah PR. Klik **Create Pull Request**.
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_11.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_11.png" alt="pull request message"><br>
 </div>
 
 - Dari sini, pengelola akan memeriksa PR Anda. Jika terdapat konflik, pengelola akan memberi tahu langkah selanjutnya (hal ini seharusnya tidak terjadi jika ini merupakan PR pertama Anda). Jika tidak memiliki konflik, PR anda akan digabungkan ke _repo_ hidrokit-nb dan notebook Anda akan muncul di direktori _repo_ hidrokit-nb
 
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_12.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_12.png" alt="you are done"><br>
 </div>
 
 <div align="center" markdown="1">
@@ -124,17 +124,17 @@ Ini merupakan solusi paling cepat yaitu menghapus _repo_ Anda dan melakukan lang
 {: .no-toc}
 - Klik "Settings" pada halaman _repo_ Anda. 
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_00.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_00.png" alt="open settings"><br>
 </div>
 
 - _Scroll down_ ke bagian paling bawah halaman. Pada "Danger Zone", klik **Delete this repository**
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_01.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_01.png" alt="delete this repository"><br>
 </div>
 
 - Ketik nama _repo_ Anda yaitu `hidrokit-nb`. Dan lanjutkan dengan klik **I understand the consequences, delete this repository**
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_02.png"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_02.png" alt="delete confirmation"><br>
 </div>
 
 Catatan: Menghapus _repo_ Anda tidak menghilangkan hasil kontribusi Anda sebelumnya di _repo_ hidrokit-nb. 
