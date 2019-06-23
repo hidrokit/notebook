@@ -97,9 +97,18 @@ Jika mendapatkan pesan "Can't automatically merge". Abaikan dan lanjut dengan kl
     <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_11.png"><br>
 </div>
 
-- Selamat! 🎉🎉 untuk membuat _Pull Request_ pertama Anda. Dari sini, pengelola akan memeriksa PR Anda. Jika terdapat konflik, pengelola akan memberi tahu langkah selanjutnya. Jika semuanya bisa langsung digabungkan terimakasih untuk berkontribusi di proyek ini. Kami menanti kontribusi Anda kedepan. 😊
+- Dari sini, pengelola akan memeriksa PR Anda. Jika terdapat konflik, pengelola akan memberi tahu langkah selanjutnya (hal ini seharusnya tidak terjadi jika ini merupakan PR pertama Anda). Jika tidak memiliki konflik, PR anda akan digabungkan ke _repo_ hidrokit-nb dan notebook Anda akan muncul di direktori _repo_ hidrokit-nb
+
 <div align="center">
     <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_12.png"><br>
+</div>
+
+<div align="center" markdown="1">
+🎉🎊 Selamat! Anda telah membuat _Pull Request_ pertama Anda. 🎊🎉
+{: .fs-5 .fw-700}
+
+Kami menanti kontribusi Anda berikutnya. 👍👍 
+{: .fs-5 .fw-300}
 </div>
 
 ---
