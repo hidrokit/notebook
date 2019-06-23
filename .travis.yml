@@ -1,10 +1,10 @@
 language: ruby
-rvm:
-  - 2.4.1
+
+before_script:
+  - cd docs
+  - bundle install --path vendor
 
 script:
-  - cd docs
-  - bundle install
   - bundle exec jekyll build --config _config_local.yml
   - bundle exec htmlproofer _site --assume-extension --disable-external
 
