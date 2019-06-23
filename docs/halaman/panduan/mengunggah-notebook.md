@@ -26,7 +26,7 @@ Halaman ini merupakan panduan dalam mengunggah notebook ke repo hidrokit-nb. Tid
 ---
 ## Unggah Notebook ke hidrokit-nb
 
-Jika ini bukan pengalaman pertama dalam mengunggah notebook. Baca [Pull Request ke-dua](#pull-request-ke-dua).
+Jika ini bukan pengalaman pertama dalam mengunggah notebook / _pull request_ di _repo_ hidrokit-nb, baca [Pull Request]({{ site.baseurl}}{% link halaman/panduan/pull-request.md %}).
 
 ### *Fork hidrokit-nb*
 - Masuk akun [GitHub](https://github.com/login).
@@ -110,38 +110,6 @@ Jika mendapatkan pesan "Can't automatically merge". Abaikan dan lanjut dengan kl
 Kami menanti kontribusi Anda berikutnya. 👍👍 
 {: .fs-5 .fw-300}
 </div>
-
----
-## *Pull Request* ke-dua
-
-Jika Anda ingin mengunggah notebook lagi setelah melakukan _Pull Request_ pertama Anda, kemungkinan akan menemukan konflik pada _repo_ Anda dikarenakan _repo_ hidrokit-nb akan terus berkembang dan diperbarui seiringnya waktu, sehingga _repo_ Anda bisa tertinggal _update_ dari _repo_ hidrokit-nb. Untuk mengatasi konflik ini ada berbagai cara untuk mengunggah notebook lagi.
-
-### _Delete Forked Repository_
-
-Ini merupakan solusi paling cepat yaitu menghapus _repo_ Anda dan melakukan langkah *Pull Request* sebagaimana pengalaman pertama Anda. Langkah ini tidak memerlukan pengalaman dalam menggunakan Git/GitHub, jadi ini merupakan solusi paling sederhana bagi kebanyakan orang. 
-
-#### _Delete Repository_
-{: .no-toc}
-- Klik "Settings" pada halaman _repo_ Anda. 
-<div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_00.png" alt="open settings"><br>
-</div>
-
-- _Scroll down_ ke bagian paling bawah halaman. Pada "Danger Zone", klik **Delete this repository**
-<div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_01.png" alt="delete this repository"><br>
-</div>
-
-- Ketik nama _repo_ Anda yaitu `hidrokit-nb`. Dan lanjutkan dengan klik **I understand the consequences, delete this repository**
-<div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/delete_fork_02.png" alt="delete confirmation"><br>
-</div>
-
-Catatan: Menghapus _repo_ Anda tidak menghilangkan hasil kontribusi Anda sebelumnya di _repo_ hidrokit-nb. 
-
-### _Rebase/Merged Repository_
-
-Ini memerlukan pengetahun/pengalaman Git. Jika Anda bukan _developer_, kami sarankan untuk menggunakan langkah diatas. Jika Anda _developer_, Anda bisa membantu mengembangkan bagian ini. 
 
 ---
 ## Bacaan lebih lanjut
