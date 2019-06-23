@@ -71,3 +71,23 @@ $ bundle exec jekyll serve --config _config_local.yml
 ```bash
 $ bundle exec just-the-docs rake search:init
 ```
+
+### Memeriksa kondisi Jekyll site
+
+Sebelum melakukan _pull request_, hasil ubahan Anda bisa di cek menggunakan gem [html-proofer](https://github.com/gjtorikian/html-proofer). Sangat disarankan melakukan langkah ini terlebih dahulu sebelum meminta penggabungan.
+
+1. Dari terminal, _build_ situs anda dengan perintah:
+
+```bash
+$ bundle exec jekyll build --config _config_local.yml
+```
+Pastikan menggunakan `_config_local.yml` karena `_config.yml` hanya digunakan untuk GitHub-Pages.
+
+2. Periksa kondisi hasilnya dengan menulis perintah:
+
+```bash
+$ bundle exec htmlproofer ./_site --assume-extension --disable-external
+```
+Hasil _build_ dianggap baik jika tidak ada pesan error.
+
+Jika sukses, lakukan _pull request_. ✨
