@@ -20,17 +20,14 @@ permalink: /panduan/lisensi-notebook
 ---
 ## Informasi Lisensi
 
-Seluruh notebook diharapkan menyertakan informasi lisensi. Hal ini diperlukan untuk memastikan aturan penggunaan kode/data yang diberikan oleh notebook. Lisensi sangat penting untuk keberlangsungan proyek _open-source_. 
+Seluruh notebook diharapkan menyertakan informasi lisensi. Hal ini diperlukan untuk memastikan aturan penggunaan kode/data yang disediakan oleh notebook. 
 
-Perlu diingat, dengan mengunggahnya notebook ke repo ini berarti perlu diadari bahwa _source code_ notebook tersedia **publik**. Akan tetapi, pemilik tetap memiliki hak milik akan notebooknya dan lisensi produknya. **Jika tidak memiliki informasi lisensi, maka notebook tersebut termasuk dalam kategori [No License](https://choosealicense.com/no-permission/)**. Pada umumnya, ini berarti **orang lain tidak memiliki ijin untuk menggunakan, menyalin, mendistribusikan, mengubah notebook**. Dan hal tersebut bertentangan dengan tujuan utama mengunggah notebook ke dalam repo ini. Sehingga sangat disarankan untuk menyertakan informasi lisensi pada notebook. Perlu diingat bahwa _open source_ bukan selalu berarti gratis ataupun bebas. 
-
-Bacaan lebih lanjut:
-- [The Legal Side of Open Source](https://opensource.guide/legal/)
+Perlu diingat, dengan mengunggahnya notebook ke repo hidrokit-nb berarti perlu disadari bahwa _source code_ notebook Anda tersedia **publik** dan bisa tersalin melalui [_forking_]. Akan tetapi, pemilik tetap memiliki hak milik akan notebooknya dan lisensi produknya. **Jika tidak memiliki informasi lisensi, maka notebook tersebut termasuk dalam kategori [No License](https://choosealicense.com/no-permission/)**. Pada umumnya, ini berarti **orang lain tidak memiliki ijin untuk menggunakan, menyalin, mendistribusikan, mengubah notebook**. Dan hal tersebut bertentangan dengan tujuan utama mengunggah notebook ke dalam repo hidrokit-nb. Sehingga sangat disarankan untuk **selalu** menyertakan informasi lisensi pada notebook. 
 
 ---
-## Apa lisensi yang harus digunakan?
+## Memilih lisensi
 
-Untuk menentukan lisensi notebook, bisa mengunjungi [Choose a License](https://choosealicense.com/) untuk memahami lisensi apa yang tepat. Perlu dicatat bahwa notebook bisa terdiri dari **kode dan data**. Lisensi kode dan data terpisah satu sama lain. 
+Untuk menentukan lisensi notebook, bisa kunjungi [Choose a License](https://choosealicense.com/) untuk memahami lisensi apa yang tepat. Perlu dicatat bahwa notebook bisa terdiri dari **kode dan data**. Lisensi kode dan data terpisah satu sama lain. 
 
 Kami menyarankan untuk menggunakan lisensi ini dalam notebook:
 - Untuk kode disarankan [berlisensi MIT](https://choosealicense.com/licenses/mit/).
@@ -49,3 +46,6 @@ Source code in this notebook is licensed under a [MIT License](https://opensourc
 ```markdown
 Source code in this notebook is licensed under a [MIT License](https://opensource.org/licenses/MIT). Data in this notebook is licensed under a [Creative Common Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/). 
 ```
+
+<!-- LINK -->
+[_forking_]: https://help.github.com/en/articles/fork-a-repo
