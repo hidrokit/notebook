@@ -40,11 +40,6 @@ Kami mengajak Anda untuk membuat isu untuk mendaftarkan notebook Anda atau melak
 Kumpulan _notebook_ yang mendemonstrasikan kegunaan python dalam bidang hidrologi (data)
 </div>
 
-<div align="center" markdown="1">
-😟😟😟 Sepi nih, ayo diunggah notebooknya 😟😟😟
-{: .fs-2}
-</div>
-
 <div align="right" markdown="1">
 [Unggah Notebook](panduan/mengunggah-notebook)
 {: .btn .fs-3 .mb-0 .mb-md-0 }
@@ -56,11 +51,6 @@ Kumpulan _notebook_ yang mendemonstrasikan kegunaan python dalam bidang hidrolog
 ## Hidrokit
 {: .label .label-green .fs-6 .mt-0}
 Kumpulan _notebook_ yang berkaitan dengan kegunaan `hidrokit`
-</div>
-
-<div align="center" markdown="1">
-😟😟😟 Sepi nih, ayo diunggah notebooknya 😟😟😟
-{: .fs-2}
 </div>
 
 <div align="right" markdown="1">
@@ -75,12 +65,7 @@ Kumpulan _notebook_ yang berkaitan dengan kegunaan `hidrokit`
 Kumpulan _notebook_ yang menerapkan python/hidrokit dalam kasus nyata/lapangan.
 </div>
 
-1. `2019-06-22` [Artificial Neural Networks (Time Series) untuk kasus kualitas air](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/blob/master/notebook/taruma-ann-ka.ipynb) oleh [taruma].
-
-<div align="center" markdown="1">
-😟😟😟 Sepi nih, ayo diunggah notebooknya 😟😟😟
-{: .fs-2}
-</div>
+1. `2019-06-22` [`NBViewer`](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/blob/master/notebook/taruma-ann-ka.ipynb) Artificial Neural Networks (Time Series) untuk kasus kualitas air oleh taruma.
 
 <div align="right" markdown="1">
 [Unggah Notebook](panduan/mengunggah-notebook)

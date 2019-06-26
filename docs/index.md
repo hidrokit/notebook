@@ -6,7 +6,7 @@ description: "Kumpulan jupyter notebook hidrologi"
 permalink: /
 ---
 <div align="center">
-    <img src="assets/images/hidrokit-nb-800x200.jpg">
+    <img src="assets/images/hidrokit-nb-800x200.jpg" alt="Hidrokit Notebook Banner">
 </div>
 
 <div align="center" markdown="1">
@@ -24,6 +24,7 @@ Kumpulan penggunaan _jupyter notebook_ yang dapat digunakan dalam bidang hidrolo
 SITE/REPOSITORY STATUS
 {: .label .label-red .fs-2 .fw-300 .text-delta}
 
+![Travis (.com)](https://img.shields.io/travis/com/taruma/hidrokit-nb.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/taruma/hidrokit-nb.svg)
 ![GitHub issues](https://img.shields.io/github/issues/taruma/hidrokit-nb.svg)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/taruma/hidrokit-nb.svg)
