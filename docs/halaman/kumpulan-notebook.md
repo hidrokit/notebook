@@ -35,11 +35,17 @@ Kami mengajak Anda untuk membuat isu untuk mendaftarkan notebook Anda atau melak
 
 ---
 <div align="center" markdown="1">
-## Umum
+## Umum <!-- ---------NOTEBOOK KATEGORI UMUM --------- -->
 {: .label .label-blue .fs-6 .mt-0}
 Kumpulan _notebook_ yang mendemonstrasikan kegunaan python dalam bidang hidrologi (data)
 </div>
 
+<!-- AWAL DAFTAR NOTEBOOK KATEGORI UMUM -->
+<!-- TAMBAHKAN NOTEBOOK ANDA DISINI -->
+
+
+<!-- AKHIR DAFTAR NOTEBOOK KATEGORI UMUM -->
+
 <div align="right" markdown="1">
 [Unggah Notebook](panduan/mengunggah-notebook)
 {: .btn .fs-3 .mb-0 .mb-md-0 }
@@ -48,11 +54,17 @@ Kumpulan _notebook_ yang mendemonstrasikan kegunaan python dalam bidang hidrolog
 
 ---
 <div align="center" markdown="1">
-## Hidrokit
+## Hidrokit <!-- ---------NOTEBOOK KATEGORI HIDROKIT --------- -->
 {: .label .label-green .fs-6 .mt-0}
 Kumpulan _notebook_ yang berkaitan dengan kegunaan `hidrokit`
 </div>
 
+<!-- AWAL DAFTAR NOTEBOOK KATEGORI HIDROKIT -->
+<!-- TAMBAHKAN NOTEBOOK ANDA DISINI -->
+
+
+<!-- AKHIR DAFTAR NOTEBOOK KATEGORI HIDROKIT -->
+
 <div align="right" markdown="1">
 [Unggah Notebook](panduan/mengunggah-notebook)
 {: .btn .fs-3 .mb-0 .mb-md-0 }
@@ -60,12 +72,18 @@ Kumpulan _notebook_ yang berkaitan dengan kegunaan `hidrokit`
 
 ---
 <div align="center" markdown="1">
-## Demo
+## Demo <!-- ---------NOTEBOOK KATEGORI DEMO --------- -->
 {: .label .label-yellow .fs-6 .mt-0}
 Kumpulan _notebook_ yang menerapkan python/hidrokit dalam kasus nyata/lapangan.
 </div>
 
+<!-- AWAL DAFTAR NOTEBOOK KATEGORI DEMO -->
+<!-- TAMBAHKAN NOTEBOOK ANDA DISINI -->
+
 1. `2019-06-22` [`NBViewer`](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/blob/master/notebook/taruma-ann-ka.ipynb) Artificial Neural Networks (Time Series) untuk kasus kualitas air oleh taruma.
+
+<!-- AKHIR DAFTAR NOTEBOOK KATEGORI DEMO -->
+
 
 <div align="right" markdown="1">
 [Unggah Notebook](panduan/mengunggah-notebook)
