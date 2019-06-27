@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mengunggah Notebook
+title: Mengunggah notebook
 parent: Panduan
 # nav_order: 1
 permalink: /panduan/mengunggah-notebook
