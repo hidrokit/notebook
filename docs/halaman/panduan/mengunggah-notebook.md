@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mengunggah Notebook
+title: Mengunggah notebook
 parent: Panduan
 # nav_order: 1
 permalink: /panduan/mengunggah-notebook
@@ -30,7 +30,7 @@ Jika ini bukan pengalaman pertama dalam mengunggah notebook / _pull request_ di 
 
 ### *Fork hidrokit-nb*
 - Masuk akun [GitHub](https://github.com/login).
-- Buka tautan [https://github.com/taruma/hidrokit-nb/](https://github.com/taruma/hidrokit-nb/).
+- Buka pranala [https://github.com/taruma/hidrokit-nb/](https://github.com/taruma/hidrokit-nb/).
 - Klik ___Fork___ pada tepi kanan atas.
 <div align="center">
     <img src="{{ site.baseurl }}/assets/images/panduan/unggah_notebook_00.png" alt="Fork Button"><br>
