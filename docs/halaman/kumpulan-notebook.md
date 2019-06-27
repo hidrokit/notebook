@@ -62,6 +62,7 @@ Kumpulan _notebook_ yang berkaitan dengan kegunaan `hidrokit`
 <!-- AWAL DAFTAR NOTEBOOK KATEGORI HIDROKIT -->
 <!-- TAMBAHKAN NOTEBOOK ANDA DISINI -->
 
+1. `2019-06-27` [`NBViewer`](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/blob/master/notebook/humbleorka-testing-notebook.ipynb) Testing oleh humbleorka.
 
 <!-- AKHIR DAFTAR NOTEBOOK KATEGORI HIDROKIT -->
 
