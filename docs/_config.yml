@@ -3,7 +3,7 @@ title: Hidrokit Notebook
 description: Kumpulan jupyter notebook hidrologi
 
 # Remote Setting
-# baseurl: "/hidrokit-nb"
+baseurl: "/hidrokit-nb"
 # url: "http://taruma.github.com"
 
 # Theme
