@@ -10,8 +10,9 @@ permalink: /
 </div>
 
 <div align="center" markdown="1">
-Kumpulan penggunaan _jupyter notebook_ yang dapat digunakan dalam bidang hidrologi dan contoh penggunaan [hidrokit]. 
-{: .fs-6 .fw-300 }
+
+Kumpulan _jupyter notebook_ mengenai penggunaan [hidrokit] dan python dalam bidang hidrologi. 
+{: .fs-5 .fw-400 }
 </div>
 
 <div align="center" markdown="1">
@@ -26,6 +27,7 @@ SITE/REPOSITORY STATUS
 
 ![Travis (.com)](https://img.shields.io/travis/com/taruma/hidrokit-nb.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/taruma/hidrokit-nb.svg)
+
 ![GitHub issues](https://img.shields.io/github/issues/taruma/hidrokit-nb.svg)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/taruma/hidrokit-nb.svg)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/taruma/hidrokit-nb.svg)
@@ -39,8 +41,14 @@ SITE/REPOSITORY STATUS
 THANKS TO
 {: .label .label-green .fs-2 .fw-300 .text-delta}
 
-[![GitHub contributors](https://img.shields.io/github/contributors/taruma/hidrokit-nb.svg?label=kontributor)](https://github.com/taruma/hidrokit-nb/graphs/contributors)
+![GitHub contributors](https://img.shields.io/github/contributors/taruma/hidrokit-nb.svg?label=kontributor)
 ![Sponsor](https://img.shields.io/badge/sponsored%20by-LKO-green.svg)
 </div>
 
+---
+Proyek hidrokit dan hidrokit-nb dikelola oleh [@taruma]
+{: .no_toc .text-delta .fs-2}
+
+<!-- LINK -->
 [hidrokit]: https://taruma.github.io/hidrokit
+[@taruma]: https://taruma.github.io
