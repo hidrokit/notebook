@@ -1,0 +1,14 @@
+# TEMPLATE
+# - title       : >-
+#     {{ judul singkat notebook}}
+#   notebook    : {{ nama berkas notebook tanpa .ipynb }}
+#   date        : {{ isi tanggal dengan format YYYY-MM-DD }}
+#   author      : {{ pengunggah }}
+#   version     : {{ versi notebook }}
+
+- title       : >-
+    Prediksi Kualitas Air menggunakan Metode _Artificial Neural Networks_
+  notebook    : taruma_demo_ann_ka_2_0_0
+  date        : 2019-07-13
+  author      : taruma
+  version     : 2.0.0

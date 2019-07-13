@@ -1,0 +1,22 @@
+- name: Demo Pos Hujan
+  notebook: demo_pos_hujan
+  folder: _old
+  date: 
+  description: >-
+    Penggunaan dan penjelasan fungsi dalam modul `prepkit` (disinggung juga penggunaan `viewkit`)
+
+- name: Demo Jawa Barat
+  notebook: demo_data_jawa_barat
+  folder: _old
+  date: 
+  description: >-
+    Penggunaan `pandas` untuk mengolah data harian dari bmkg online untuk satu provinsi. 
+    Dalam notebook ini fokus dalam eksplorasi data di Jawa Barat.
+
+- name: Demo Metadata BMKG
+  notebook: demo_metadata_bmkg
+  folder: _old
+  date: 
+  description: >-
+    Dilakukan eksplorasi metadata (informasi stasiun) 
+    untuk seluruh wilayah Indonesia yang diperoleh dari BMKG online.
