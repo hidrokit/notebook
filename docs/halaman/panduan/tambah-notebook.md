@@ -5,11 +5,6 @@ parent: Panduan
 permalink: /panduan/tambah-notebook
 ---
 
-<div align="justify" markdown="1">
-**Halaman ini kadaluarsa _outdated_. Penambahan daftar notebook lebih mudah dengan hanya mengubah _file YAML_ pada direktori _data. **
-{: .label .label-red .fs-1}
-</div>
-
 Halaman ini berisikan panduan menambahkan notebook anda di halaman [kumpulan notebook]({{ site.baseurl }}{% link halaman/kumpulan-notebook.md %}).
 
 # Daftar Isi
@@ -22,79 +17,78 @@ Halaman ini berisikan panduan menambahkan notebook anda di halaman [kumpulan not
 ## Persiapan
 
 - Diasumsikan bahwa Anda sudah pernah melakukan _pull request_ sebelumnya. Jika belum, baca [cara mengunggah notebook]({{ site.baseurl }}{% link halaman/panduan/mengunggah-notebook.md %}).
-- Repo Anda sudah diperbarui dengan repo hidrokit-nb, jika belum baca [memperbarui dengan pull request]({{ site.baseurl }}{% link halaman/panduan/pull-request.md %}).
+- Repo Anda sudah diperbarui dengan repo hidrokit-nb, jika belum, baca [memperbarui dengan pull request]({{ site.baseurl }}{% link halaman/panduan/pull-request.md %}).
 - Pastikan bahwa notebook Anda sudah tersimpan dalam repo hidrokit-nb. Cek notebook Anda dengan melihat [kumpulan notebook melalui NBViewer](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/tree/master/notebook/).
-- Menentukan kategori untuk notebook (umum/hidrokit/demo).
+- Menentukan kategori untuk notebook Anda (umum/hidrokit/demo).
 
 ---
 ## Menambahkan Notebook
 
-### Buka dokumen `kumpulan-notebook.md`
+Tentukan kategori yang sesuai dengan notebook Anda. Gunakan kategori umum jika tidak sesuai dengan kategori demo/hidrokit. Ada tiga _YAML file_ untuk masing-masing kategori. Notebook bisa lebih dari satu kategori, hanya perlu melakukan langkah pengubahan _YAML file_ sebanyak tiga kali. 
 
-- Pastikan Anda berada di repo Anda (yang selalu ditandai dengan `forked from taruma/hidrokit-nb`). Cari _file_ dengan memilih pilihan **Find File**.
+### Buka dokumen YAML kategori
+
+- Pastikan Anda berada di repo Anda (yang selalu ditandai dengan `forked from taruma/hidrokit-nb`) dan sudah paling terbaru. Cari _file_ dengan memilih pilihan **Find File**.
 
 <div align="center">
     <img src="{{ site.baseurl }}/assets/images/panduan/tambah_00.png" alt="find file button"><br>
 </div>
 
-- Cari _file_ bernama `kumpulan-notebook.md`. Kemudian buka `docs/halaman/kumpulan-notebook.md`.
+- Cari _file YAML_ sesuai kategori. Untuk kategori umum, bernama `umum.yml`; Untuk kategori hidrokit, bernama `hidrokit.yml`; Untuk kategori demo, bernama `demo.yml`. Buka file dengan menekan `enter` atau memilih `docs/_data/{kategori}.yml`.<br>Catatan: Anda bisa membuka berkas tersebut pada direktori `docs/_data/`.
 
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_01.png" alt="search file"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_baru_00.png" alt="find yaml file"><br>
 </div>
 
 - Klik gambar pensil untuk melakukan perubahan.
 
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_02.png" alt="pencil button"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_baru_01.png" alt="edit yaml file"><br>
 </div>
-Catatan: tampilan di github tidak begitu bagus meski dokumen _markdown_, ini dikarenakan banyaknya penggunaan Block Inline Attribute List (IAL)
 
-- Cari bagian kategori yang ingin ditambahkan. Tips: lihat baris yang dikomentari `<!-- ---------NOTEBOOK KATEGORI UMUM --------- -->`. 
-
-<div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_03.png" alt="find your category"><br>
-</div>
+- Tambah informasi notebook Anda **di barisan paling bawah**.
 
 ### Format penulisan
 
-- Tambahkan notebook Anda dengan menggunakan format sebagai berikut:
+- Tambahkan informasi notebook Anda dengan menggunakan format sebagai berikut:
+{% raw %}
+```
+- title       : >-
+    {{ judul singkat notebook }}
+  notebook    : {{ nama berkas notebook tanpa .ipynb }}
+  date        : {{ isi tanggal dengan format YYYY-MM-DD }}
+  author      : {{ pengunggah }}
+  version     : {{ versi notebook }}
+```
+{% endraw %}
+
+- Catatan: 
+  - untuk `author` isikan nama _username_ github. 
+  - untuk `version`, jika notebook tidak memiliki versi, isikan dengan nilai `1.0.0`.
+  - pastikan isian `notebook` sesuai dengan penamaan berkasnya.
+
+- Contoh pengisian informasi notebook: <br> Saya ingin menambahkan notebook saya yang berjudul "Tutorial satu" dengan nama berkas "taruma_tutorial_satu.ipynb" yang telah masuk pada tanggal 13 Juli 2019.
 
 ```
-1. `YYYY-MM-DD` [`NBViewer`](link-notebook-anda) Judul Notebook oleh Pemilik/Penulis.
+- title       : >-
+    Tutorial satu
+  notebook    : taruma_tutorial_satu
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.0
 ```
-<div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_06.png" alt="write your line"><br>
-</div>
-
-Tips: Anda tidak perlu menyesuaikan penomoran daftar (2./3./4.), cukup tulis `1. ...`, situs akan mengatur sendiri dan mengisi penomoran yang tepat.
-
-### Salin _link_/tautan/pranala notebook Anda
-
-- Tautan yang diminta adalah tautan yang berasal dari *NBViewer*.
-- Buka [halaman kumpulan notebook melalui NBViewer](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/tree/master/notebook/), buka notebook anda dengan mengkliknya.
 
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_04.png" alt="browse nbviewer"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_baru_02.png" alt="add new notebook info"><br>
 </div>
 
-- Salin tautan dari kotak alamat _browser_ Anda.
+- Jika telah selesai mengubah dokumen, lanjutkan dengan memilih **Commit changes**. Sertakan juga info commit jika diperlukan.
 
 <div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_05.png" alt="notebook link"><br>
+    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_baru_03.png" alt="commit changes"><br>
 </div>
 
-- Kembali ke halaman github, ganti `link-notebook-anda` dengan tautan yang sudah disalin sebelumnya.
-
-<div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_07.png" alt="change with your link"><br>
-</div>
-
-- Jika telah selesai mengubah dokumen `kumpulan-notebook.md`, lanjutkan dengan memilih **Commit changes**. Sertakan juga info commit jika diperlukan.
-
-<div align="center">
-    <img src="{{ site.baseurl }}/assets/images/panduan/tambah_08.png" alt="commit"><br>
-</div>
+- Jika notebook Anda ingin disertakan pada kategori lain, ulangi langkah diatas dengan berkas YAML yang berbeda. Jika sudah selesai, lanjutkan dengan melakukan _pull request_. 
 
 ### Melakukan _pull request_
 

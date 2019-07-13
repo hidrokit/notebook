@@ -21,9 +21,13 @@ permalink: /kumpulan-notebook
 <div align="justify" markdown="1">
 Notebook di hidrokit-nb dibagi menjadi tiga kategori yaitu umum, hidrokit, dan demo. Pembagian kategori ini hanya berlaku untuk pengkategorian melalui halaman ini (jika melihat langsung dari _repo_ atau _NBViewer_ seluruh notebook disimpan dalam satu _folder_). Halaman ini diperbarui manual sehingga notebook yang telah diterima _pull request_-nya bisa saja tidak tampil di halaman ini. 
 
-Kami mengajak Anda untuk membuat isu untuk mendaftarkan notebook Anda atau melakukan _pull request_ sendiri untuk mendaftarkan notebook Anda di halaman ini.
+Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk mendaftarkan notebook Anda di halaman ini. Ikuti panduan [Tambah _notebook_]({% link halaman/panduan/tambah-notebook.md %}) jika ingin menambahkan notebook Anda di halaman ini. Pastikan notebook anda sudah diunggah pada repo hidrokit-nb sesuai panduan [Unggah _notebook_]({% link halaman/panduan/mengunggah-notebook.md %})
 </div>
 
+<div align="center" markdown="1">
+[Unggah _Notebook_]({% link halaman/panduan/mengunggah-notebook.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Tambah _Notebook_]({% link halaman/panduan/tambah-notebook.md %}){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
+</div>
 
 ---
 
