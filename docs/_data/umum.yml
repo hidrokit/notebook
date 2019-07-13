@@ -1,0 +1,7 @@
+# TEMPLATE
+# - title       : >-
+#     {{ judul singkat notebook}}
+#   notebook    : {{ nama berkas notebook tanpa .ipynb }}
+#   date        : {{ isi tanggal dengan format YYYY-MM-DD }}
+#   author      : {{ pengunggah }}
+#   version     : {{ versi notebook }}

@@ -40,17 +40,7 @@ Kami mengajak Anda untuk membuat isu untuk mendaftarkan notebook Anda atau melak
 Kumpulan _notebook_ yang mendemonstrasikan kegunaan python dalam bidang hidrologi (data)
 </div>
 
-<!-- AWAL DAFTAR NOTEBOOK KATEGORI UMUM -->
-<!-- TAMBAHKAN NOTEBOOK ANDA DISINI -->
-
-
-<!-- AKHIR DAFTAR NOTEBOOK KATEGORI UMUM -->
-
-<div align="right" markdown="1">
-[Unggah Notebook](panduan/mengunggah-notebook)
-{: .btn .fs-3 .mb-0 .mb-md-0 }
-</div>
-
+{% include daftar_notebook.md source=site.data.umum %}
 
 ---
 <div align="center" markdown="1">
@@ -59,16 +49,7 @@ Kumpulan _notebook_ yang mendemonstrasikan kegunaan python dalam bidang hidrolog
 Kumpulan _notebook_ yang berkaitan dengan kegunaan `hidrokit`
 </div>
 
-<!-- AWAL DAFTAR NOTEBOOK KATEGORI HIDROKIT -->
-<!-- TAMBAHKAN NOTEBOOK ANDA DISINI -->
-
-
-<!-- AKHIR DAFTAR NOTEBOOK KATEGORI HIDROKIT -->
-
-<div align="right" markdown="1">
-[Unggah Notebook](panduan/mengunggah-notebook)
-{: .btn .fs-3 .mb-0 .mb-md-0 }
-</div>
+{% include daftar_notebook.md source=site.data.hidrokit %}
 
 ---
 <div align="center" markdown="1">
@@ -77,18 +58,7 @@ Kumpulan _notebook_ yang berkaitan dengan kegunaan `hidrokit`
 Kumpulan _notebook_ yang menerapkan python/hidrokit dalam kasus nyata/lapangan.
 </div>
 
-<!-- AWAL DAFTAR NOTEBOOK KATEGORI DEMO -->
-<!-- TAMBAHKAN NOTEBOOK ANDA DISINI -->
-
-1. `2019-06-22` [`NBViewer`](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/blob/master/notebook/taruma-ann-ka.ipynb) Artificial Neural Networks (Time Series) untuk kasus kualitas air oleh taruma.
-
-<!-- AKHIR DAFTAR NOTEBOOK KATEGORI DEMO -->
-
-
-<div align="right" markdown="1">
-[Unggah Notebook](panduan/mengunggah-notebook)
-{: .btn .fs-3 .mb-0 .mb-md-0 }
-</div>
+{% include daftar_notebook.md source=site.data.demo %}
 
 ---
 <div align="center" markdown="1">
@@ -97,9 +67,7 @@ Kumpulan _notebook_ yang menerapkan python/hidrokit dalam kasus nyata/lapangan.
 Kumpulan _notebook_ yang sudah tidak digunakan/tidak layak pakai
 </div>
 
-- [Demo Pos Hujan](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/blob/master/_old/demo_pos_hujan.ipynb): Penggunaan dan penjelasan fungsi dalam modul `prepkit` (disinggung juga penggunaan `viewkit`)
-- [Demo Jawa Barat](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/blob/master/_old/demo_data_jawa_barat.ipynb): Penggunaan _pandas_ untuk mengolah data harian dari bmkg online untuk satu provinsi. Dalam _notebook_ ini fokus dalam eksplorasi data di Jawa Barat.
-- [Demo Metadata BMKG](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/blob/master/_old/demo_metadata_bmkg.ipynb): Dilakukan eksplorasi metadata (informasi stasiun) untuk seluruh wilayah Indonesia yang diperoleh dari BMKG online. 
+{% include daftar_arsip.md %}
 
 <!-- Link -->
 [taruma]: https://github.com/taruma

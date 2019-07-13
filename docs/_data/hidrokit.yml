@@ -1,0 +1,49 @@
+# TEMPLATE
+# - title       : >-
+#     {{ judul singkat notebook}}
+#   notebook    : {{ nama berkas notebook tanpa .ipynb }}
+#   date        : {{ isi tanggal dengan format YYYY-MM-DD }}
+#   author      : {{ pengunggah }}
+#   version     : {{ versi notebook }}
+
+- title       : >-
+    Prediksi Kualitas Air menggunakan Metode _Artificial Neural Networks_
+  notebook    : taruma_demo_ann_ka_2_0_0
+  date        : 2019-07-13
+  author      : taruma
+  version     : 2.0.0
+
+- title       : >-
+    Tutorial hidrokit.prep.excel
+  notebook    : taruma_hidrokit_prep_excel
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.2
+
+- title       : >-
+    Tutorial hidrokit.prep.read
+  notebook    : taruma_hidrokit_prep_read
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.1
+
+- title       : >-
+    Tutorial hidrokit.prep.timeseries
+  notebook    : taruma_hidrokit_prep_timeseries
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.1
+
+- title       : >-
+    Tutorial hidrokit.viz.graph
+  notebook    : taruma_hidrokit_viz_graph
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.1
+
+- title       : >-
+    Tutorial hidrokit.viz.table
+  notebook    : taruma_hidrokit_viz_table
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.1
