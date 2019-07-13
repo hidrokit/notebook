@@ -5,6 +5,11 @@ parent: Panduan
 permalink: /panduan/tambah-notebook
 ---
 
+<div align="justify" markdown="1">
+**Halaman ini kadaluarsa _outdated_. Penambahan daftar notebook lebih mudah dengan hanya mengubah _file YAML_ pada direktori `_data`. **
+{: .label .label-red .fs-1}
+</div>
+
 Halaman ini berisikan panduan menambahkan notebook anda di halaman [kumpulan notebook]({{ site.baseurl }}{% link halaman/kumpulan-notebook.md %}).
 
 # Daftar Isi
