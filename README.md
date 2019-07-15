@@ -32,6 +32,7 @@ Situs [hidrokit-nb] didukung oleh [Github Pages](https://pages.github.com/). Jek
 Kontribusi dalam proyek ini dapat berupa memperbaiki situs, dokumentasi, mengunggah notebook, diskusi, ide, dll. Jika ada ide/saran/kritik yang menarik, jangan ragu untuk langsung membuat isu [disini](https://github.com/taruma/hidrokit-nb/issues/new/choose) atau _pull request_.
 
 Anda bisa membaca halaman [berkontribusi](https://taruma.github.io/hidrokit/berkontribusi) pada situs hidrokit untuk informasi lebih lanjut. Yang perlu diingat, bahwa hidrokit-nb merupakan proyek kumpulan jupyter notebook sedangkan hidrokit adalah proyek paket python. Buat isu/pull request sesuai dengan topiknya.
+
 ---
 ## Lisensi
 
