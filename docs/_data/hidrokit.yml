@@ -7,13 +7,6 @@
 #   version     : {{ versi notebook }}
 
 - title       : >-
-    Prediksi Kualitas Air menggunakan Metode _Artificial Neural Networks_
-  notebook    : taruma_demo_ann_ka_2_0_0
-  date        : 2019-07-13
-  author      : taruma
-  version     : 2.0.0
-
-- title       : >-
     Tutorial hidrokit.prep.excel
   notebook    : taruma_hidrokit_prep_excel
   date        : 2019-07-13
@@ -47,3 +40,10 @@
   date        : 2019-07-13
   author      : taruma
   version     : 1.0.1
+
+- title       : >-
+    Prediksi Kualitas Air menggunakan Metode _Artificial Neural Networks_
+  notebook    : taruma_demo_ann_ka_2_0_0
+  date        : 2019-07-13
+  author      : taruma
+  version     : 2.0.0
