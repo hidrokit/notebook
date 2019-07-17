@@ -41,10 +41,10 @@ Kedua lisensi tersebut memastikan bahwa produk (kode/data) dapat dikembangkan le
 Setelah menentukan lisensi, pemilik bisa menambahkan informasi lisensi dalam satu baris _markdown_ dalam notebook (diawal/diakhir).
 
 <div class="code-example" markdown="1">
-Source code in this notebook is licensed under a [MIT License](https://opensource.org/licenses/MIT). Data in this notebook is licensed under a [Creative Common Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/). 
+Source code in this notebook is licensed under a [MIT License](https://choosealicense.com/licenses/mit/). Data in this notebook is licensed under a [Creative Common Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). 
 </div>
 ```markdown
-Source code in this notebook is licensed under a [MIT License](https://opensource.org/licenses/MIT). Data in this notebook is licensed under a [Creative Common Attribution 4.0 International](https://choosealicense.com/licenses/cc-by-4.0/). 
+Source code in this notebook is licensed under a [MIT License](https://choosealicense.com/licenses/mit/). Data in this notebook is licensed under a [Creative Common Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). 
 ```
 
 <!-- LINK -->
