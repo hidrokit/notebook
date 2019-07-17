@@ -12,3 +12,10 @@
   date        : 2019-07-13
   author      : taruma
   version     : 2.0.0
+
+- title       : >-
+    Menentukan kriteria berdasarkan total bulanan
+  notebook    : taruma_hk60_resample
+  date        : 2019-07-17
+  author      : taruma
+  version     : 1.0.0
