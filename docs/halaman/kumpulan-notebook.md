@@ -41,7 +41,7 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 <div align="center" markdown="1">
 ## Umum <!-- ---------NOTEBOOK KATEGORI UMUM --------- -->
 {: .label .label-blue .fs-6 .mt-0}
-Kumpulan _notebook_ yang mendemonstrasikan kegunaan python dalam bidang hidrologi (data)
+Kumpulan _notebook_ yang mendemonstrasikan kegunaan python yang dapat diterapkan pada bidang hidrologi
 </div>
 
 {% include daftar_notebook.md source=site.data.umum %}
