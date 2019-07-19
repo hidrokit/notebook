@@ -19,3 +19,10 @@
   date        : 2019-07-17
   author      : taruma
   version     : 1.0.0
+
+- title       : >-
+    Contoh Penggunaan _Recurrent Neural Networks_ (LSTM)
+  notebook    : taruma_udemy_rnn_1_0_0
+  date        : 2019-07-19
+  author      : taruma
+  version     : 1.0.0
