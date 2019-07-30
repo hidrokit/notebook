@@ -40,3 +40,10 @@
   date        : 2019-07-29
   author      : taruma
   version     : 1.0.0
+
+- title       : >-
+    Contoh Penggunaan Boltzmann Machine
+  notebook    : taruma_udemy_boltzmann
+  date        : 2019-07-30
+  author      : taruma
+  version     : 1.0.0
