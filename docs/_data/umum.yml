@@ -47,3 +47,10 @@
   date        : 2019-07-30
   author      : taruma
   version     : 1.0.0
+
+- title       : >-
+    Contoh Penggunaan AutoEncoder
+  notebook    : taruma_udemy_autoencoders
+  date        : 2019-08-01
+  author      : taruma
+  version     : 1.0.0
