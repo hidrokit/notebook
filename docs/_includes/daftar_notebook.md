@@ -5,6 +5,6 @@
 {%- assign collection = include.source | reverse -%}
 {%- for item in collection -%}
 {% if item %}
--  **{{ item.title }}**<br><i class="fas fa-calendar-day"></i> `{{ item.date }}` \| <i class="fas fa-code-branch"></i> `{{ item.version }}` \| [<i class="fas fa-book-open"></i>]({{ base_link }}/notebook/{{ item.notebook }}.ipynb) \| [<i class="fab fa-github-square"></i>]({{ github_link }}/notebook/{{ item.notebook }}.ipynb) \| [<i class="fas fa-download"></i>]({{ raw_link }}/notebook/{{ item.notebook }}.ipynb) \| [<i class="fab fa-google"></i>]({{ google_link }}/notebook/{{ item.notebook }}.ipynb) \| [<i class="fas fa-user"></i>](https://github.com/{{ item.author }})
+-  **{{ item.title }}**<br><i class="fas fa-calendar-day"></i> `{{ item.date }}` \| <i class="fas fa-code-branch"></i> `{{ item.version }}` \| [<i class="fas fa-book-open"></i>]({{ base_link }}/notebook/{{ item.notebook }}.ipynb) \| [<i class="fab fa-github"></i>]({{ github_link }}/notebook/{{ item.notebook }}.ipynb) \| [<i class="fas fa-download"></i>]({{ raw_link }}/notebook/{{ item.notebook }}.ipynb) \| [<i class="fab fa-google"></i>]({{ google_link }}/notebook/{{ item.notebook }}.ipynb) \| [<i class="fas fa-user"></i>](https://github.com/{{ item.author }})
 {%- endif -%}
 {%- endfor -%}

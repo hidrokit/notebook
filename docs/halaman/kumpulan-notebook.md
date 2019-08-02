@@ -44,7 +44,7 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 <i class="fas fa-calendar-day"></i> `Tanggal`{: .text-delta} |
 <i class="fas fa-code-branch"></i> `Versi`{: .text-delta} |
 <i class="fas fa-book-open"></i> `Buka melalui NBViewer`{: .text-delta} |
-<i class="fab fa-github-square"></i> `Lihat di GitHub`{: .text-delta} |
+<i class="fab fa-github"></i> `Lihat di GitHub`{: .text-delta} |
 <i class="fas fa-download"></i> `Unduh notebook`{: .text-delta} |
 <i class="fab fa-google"></i> `Buka melalui Google Colab`{: .text-delta} |
 <i class="fas fa-user"></i> `Pemilik/Pembuat`{: .text-delta}
