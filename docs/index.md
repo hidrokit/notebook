@@ -25,13 +25,22 @@ Kumpulan _jupyter notebook_ mengenai penggunaan [hidrokit] dan python dalam bida
 SITE/REPOSITORY STATUS
 {: .label .label-red .fs-2 .fw-300 .text-delta}
 
-![Travis (.com)](https://img.shields.io/travis/com/taruma/hidrokit-nb.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/taruma/hidrokit-nb.svg)
+![Travis (.com)](https://img.shields.io/travis/com/hidrokit/notebook.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/hidrokit/notebook.svg)
 
-![GitHub issues](https://img.shields.io/github/issues/taruma/hidrokit-nb.svg)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/taruma/hidrokit-nb.svg)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/taruma/hidrokit-nb.svg)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/taruma/hidrokit-nb.svg)
+![GitHub issues](https://img.shields.io/github/issues/hidrokit/notebook.svg)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/hidrokit/notebook.svg)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/hidrokit/notebook.svg)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/hidrokit/notebook.svg)
+
+</div>
+
+---
+
+<div align="center" markdown="1">
+
+__Situs ini telah kadaluwarsa dan belum disesuaikan dengan versi hidrokit 0.3.5.__
+{: .label .label-yellow .fs-3}
 
 </div>
 
@@ -41,7 +50,7 @@ SITE/REPOSITORY STATUS
 THANKS TO
 {: .label .label-green .fs-2 .fw-300 .text-delta}
 
-![GitHub contributors](https://img.shields.io/github/contributors/taruma/hidrokit-nb.svg?label=kontributor)
+![GitHub contributors](https://img.shields.io/github/contributors/hidrokit/notebook.svg?label=kontributor)
 ![Sponsor](https://img.shields.io/badge/sponsored%20by-LKO-green.svg)
 </div>
 
