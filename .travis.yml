@@ -14,7 +14,7 @@ addons:
 
 script:
   - bundle exec jekyll build -s docs -d _site --config docs/_config_local.yml
-  - bundle exec htmlproofer _site --assume-extension --disable-external
+  # - bundle exec htmlproofer _site --assume-extension --disable-external
 
 # branch whitelist, only for GitHub Pages
 branches:

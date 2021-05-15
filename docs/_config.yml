@@ -3,12 +3,12 @@ title: Hidrokit Notebook
 description: Kumpulan jupyter notebook hidrologi
 
 # Remote Setting
-baseurl: "/notebook/"
+baseurl: "/notebook"
 url: "http://hidrokit.github.io"
 
 # Theme
 # theme: "just-the-docs"
-remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs@v0.2.6
 
 # Theme settings
 # Color scheme currently only supports "dark" or nil (default)
