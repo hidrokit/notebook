@@ -7,8 +7,10 @@ on:
     type: [opened, reopened, synchronize]
 
 jobs:
-  test:
+  jekyll_build:
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_GEMFILE: ${{ github.workspace }}/docs/Gemfile
     steps:
     - uses: actions/checkout@v2
     - uses: ruby/setup-ruby@v1
