@@ -11,6 +11,9 @@ permalink: /
 
 <div align="center" markdown="1">
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/hidrokit/notebook?logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/hidrokit/notebook)
+
 Kumpulan _jupyter notebook_ mengenai penggunaan [hidrokit] dan python dalam bidang hidrologi. 
 {: .fs-5 .fw-400 }
 </div>
@@ -25,7 +28,7 @@ Kumpulan _jupyter notebook_ mengenai penggunaan [hidrokit] dan python dalam bida
 SITE/REPOSITORY STATUS
 {: .label .label-red .fs-2 .fw-300 .text-delta}
 
-![Travis (.com)](https://img.shields.io/travis/com/hidrokit/notebook.svg)
+![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/hidrokit/notebook/Jekyll%20Build?event=push&logo=jekyll)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hidrokit/notebook.svg)
 
 ![GitHub issues](https://img.shields.io/github/issues/hidrokit/notebook.svg)
@@ -38,26 +41,19 @@ SITE/REPOSITORY STATUS
 ---
 
 <div align="center" markdown="1">
-
-__Situs ini telah kadaluwarsa dan belum disesuaikan dengan versi hidrokit 0.3.5.__
-{: .label .label-yellow .fs-3}
-
-</div>
-
----
-
-<div align="center" markdown="1">
 THANKS TO
 {: .label .label-green .fs-2 .fw-300 .text-delta}
 
 ![GitHub contributors](https://img.shields.io/github/contributors/hidrokit/notebook.svg?label=kontributor)
 ![Sponsor](https://img.shields.io/badge/sponsored%20by-LKO-green.svg)
+[![Sponsored by PT. FIAKO Enjiniring Indonesia](https://img.shields.io/badge/sponsored%20by-PT.%20FIAKO%20Enjiniring%20Indonesia-blue.svg)](http://www.fiako.co.id/)
 </div>
 
 ---
-Proyek hidrokit dan hidrokit-nb dikelola oleh [@taruma]
+Proyek [hidrokit] dan [hidrokit-nb] dikelola oleh [@taruma]
 {: .no_toc .text-delta .fs-2}
 
 <!-- LINK -->
-[hidrokit]: https://taruma.github.io/hidrokit
-[@taruma]: https://taruma.github.io
+[hidrokit]: https://github.com/hidrokit/hidrokit
+[hidrokit-nb]: https://github.com/hidrokit/notebook
+[@taruma]: https://github.com/taruma
