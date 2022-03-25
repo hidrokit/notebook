@@ -46,7 +46,9 @@ THANKS TO
 
 ![GitHub contributors](https://img.shields.io/github/contributors/hidrokit/notebook.svg?label=kontributor)
 ![Sponsor](https://img.shields.io/badge/sponsored%20by-LKO-green.svg)
+
 [![Sponsored by PT. FIAKO Enjiniring Indonesia](https://img.shields.io/badge/sponsored%20by-PT.%20FIAKO%20Enjiniring%20Indonesia-blue.svg)](http://www.fiako.co.id/)
+
 </div>
 
 ---
