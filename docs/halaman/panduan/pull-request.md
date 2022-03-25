@@ -3,6 +3,7 @@ layout: default
 title: Pull Request
 parent: Panduan
 permalink: /panduan/pull-request
+last_modified_date: 2019-06-23
 ---
 
 Terima kasih telah melakukan _pull request_ sebelumnya. 🙏 Halaman ini ditujukan bagi Anda yang ingin mengunggah notebook lagi atau melakukan perubahan pada repo hidrokit. 

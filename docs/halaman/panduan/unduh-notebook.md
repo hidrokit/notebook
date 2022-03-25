@@ -3,6 +3,7 @@ layout: default
 title: Mengunduh notebook
 parent: Panduan
 permalink: /panduan/unduh-notebook
+last_modified_date: 2019-06-27
 ---
 
 Halaman ini berisikan panduan mengunduh notebook di halaman [kumpulan notebook]({{ site.baseurl }}{% link halaman/kumpulan-notebook.md %}).

@@ -3,6 +3,7 @@ layout: default
 title: Menambah notebook
 parent: Panduan
 permalink: /panduan/tambah-notebook
+last_modified_date: 2019-07-13
 ---
 
 Halaman ini berisikan panduan menambahkan notebook anda di halaman [kumpulan notebook]({{ site.baseurl }}{% link halaman/kumpulan-notebook.md %}).

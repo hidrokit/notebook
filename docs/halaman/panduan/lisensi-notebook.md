@@ -4,6 +4,7 @@ title: Lisensi Notebook
 parent: Panduan
 # nav_order: 1
 permalink: /panduan/lisensi-notebook
+last_modified_date: 2019-07-17
 ---
 
 <div align="justify" markdown="1">
