@@ -46,8 +46,8 @@ THANKS TO
 
 ![GitHub contributors](https://img.shields.io/github/contributors/hidrokit/notebook.svg?label=kontributor)
 
-![Sponsor](https://img.shields.io/badge/sponsored%20by-LKO-green.svg)
-[![Sponsored by PT. FIAKO Enjiniring Indonesia](https://img.shields.io/badge/sponsored%20by-PT.%20FIAKO%20Enjiniring%20Indonesia-blue.svg)](http://www.fiako.co.id/)
+![Sponsor](https://img.shields.io/badge/LKO-green.svg)
+[![Sponsored by PT. FIAKO Enjiniring Indonesia](https://img.shields.io/badge/PT.%20FIAKO%20Enjiniring%20Indonesia-blue.svg)](http://www.fiako.co.id/)
 
 </div>
 
@@ -60,7 +60,7 @@ SPONSOR
 </div>
 
 <div align="center">
-    <a href="http://www.fiako.co.id/" target="_blank"><img src="assets/images/logo_fiako.png" alt="PT. FIAKO Enjiniring Indonesia" width="150"></a>
+    <a href="http://www.fiako.co.id/" target="_blank"><img src="assets/images/logo_fiako.png" alt="PT. FIAKO Enjiniring Indonesia" width="200"></a>
 </div>
 
 ---
