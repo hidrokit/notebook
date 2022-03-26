@@ -38,12 +38,13 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 - <i class="fas fa-book-open"></i> _Buka melalui NBViewer_{: .text-delta}
 - <i class="fab fa-github"></i> _Lihat di GitHub_{: .text-delta}
 - _@author (username github)_{: .text-delta}
+- <i class="fas fa-download"></i> _Download (jika tersedia di repo)_{: .text-delta}
 
-{%- assign col_imp = site.data.hidrokit | where: "category", "implementasi" | sort: "date" | reverse -%}
-{%- assign col_contrib = site.data.hidrokit | where: "category", "contrib" | sort: "title" -%}
-{%- assign col_main = site.data.hidrokit | where: "category", "main" | sort: "title" -%}
-{%- assign col_archive = site.data.general | where: "category", "arsip" | sort: "title" -%}
-{%- assign col_general = site.data.general | where: "category", "general" | sort: "date" | reverse -%}
+{% assign col_imp = site.data.hidrokit | where: "category", "implementasi" | sort: "date" | reverse %}
+{% assign col_contrib = site.data.hidrokit | where: "category", "contrib" | sort: "title" %}
+{% assign col_main = site.data.hidrokit | where: "category", "main" | sort: "title" %}
+{% assign col_archive = site.data.general | where: "category", "arsip" | sort: "title" %}
+{% assign col_general = site.data.general | where: "category", "general" | sort: "date" | reverse %}
 
 ---
 
@@ -60,7 +61,7 @@ Laporan Implementasi (LI) merupakan buku (jupyter notebook) yang memeragakan pen
 <div align="center" markdown="1">
 ## Manual Subpaket hidrokit.contrib
 {: .label .label-green .fs-6 .mt-0}
-Kumpulan _notebook_ manual untuk penggunaan fungsi pada subpaket `hidrokit.contrib.`.
+Kumpulan _notebook_ manual untuk penggunaan fungsi pada subpaket `hidrokit.contrib`.
 </div>
 
 {% include daftar_notebook.md source=col_contrib %}

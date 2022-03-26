@@ -43,7 +43,7 @@ _{{ item.description }}_{: .text-epsilon}<br>
 <i class="fas fa-code-branch"></i> _{{ item.version }}_{: .text-delta} \| 
 [<i class="fas fa-book-open"></i>]({{ nbv_link }}) \|
 [<i class="fab fa-github"></i>]({{ gh_link }}) \| 
-[@{{ item.author }}](https://github.com/{{ item.author }})
+[@{{ item.author }}](https://github.com/{{ item.author }}){: .text-delta}
 {%- endif -%}
 
 {%- assign desc = nil -%}

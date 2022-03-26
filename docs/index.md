@@ -20,7 +20,7 @@ Kumpulan _jupyter notebook_ mengenai penggunaan [hidrokit] dan python dalam bida
 
 <div align="center" markdown="1">
 [Lihat Kumpulan _Notebook_](kumpulan-notebook){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Unggah _Notebook_](panduan/mengunggah-notebook){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
+<!-- [Unggah _Notebook_](panduan/mengunggah-notebook){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 } -->
 </div>
 
 ---
@@ -45,10 +45,22 @@ THANKS TO
 {: .label .label-green .fs-2 .fw-300 .text-delta}
 
 ![GitHub contributors](https://img.shields.io/github/contributors/hidrokit/notebook.svg?label=kontributor)
-![Sponsor](https://img.shields.io/badge/sponsored%20by-LKO-green.svg)
 
+![Sponsor](https://img.shields.io/badge/sponsored%20by-LKO-green.svg)
 [![Sponsored by PT. FIAKO Enjiniring Indonesia](https://img.shields.io/badge/sponsored%20by-PT.%20FIAKO%20Enjiniring%20Indonesia-blue.svg)](http://www.fiako.co.id/)
 
+</div>
+
+---
+
+<div align="center" markdown="1">
+SPONSOR
+{: .label .label-green .fs-2 .fw-300 .text-delta}
+
+</div>
+
+<div align="center">
+    <a href="http://www.fiako.co.id/" target="_blank"><img src="assets/images/logo_fiako.png" alt="PT. FIAKO Enjiniring Indonesia" width="150"></a>
 </div>
 
 ---
