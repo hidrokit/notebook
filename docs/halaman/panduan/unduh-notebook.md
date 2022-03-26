@@ -3,7 +3,7 @@ layout: default
 title: Mengunduh notebook
 parent: Panduan
 permalink: /panduan/unduh-notebook
-last_modified_date: 2019-06-27
+last_modified_date: 2022-03-26
 ---
 
 Halaman ini berisikan panduan mengunduh notebook di halaman [kumpulan notebook]({{ site.baseurl }}{% link halaman/kumpulan-notebook.md %}).
@@ -15,6 +15,12 @@ Halaman ini berisikan panduan mengunduh notebook di halaman [kumpulan notebook](
 {:toc}
 
 ---
+
+## Melalui halaman kumpulan notebook
+
+- Dari halaman [kumpulan notebook]({{ site.baseurl }}{% link halaman/kumpulan-notebook.md %}). Jika ada simbol <i class="fas fa-download"></i> maka notebook bisa langsung diunduh.
+- Klik kanan di simbol <i class="fas fa-download"></i>, kemudian "Save As" atau "Save Link As".
+- Simpan _file_.
 
 ## Melalui github
 
