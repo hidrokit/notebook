@@ -3,6 +3,7 @@ layout: default
 title: Kumpulan Notebook
 nav_order: 2
 permalink: /kumpulan-notebook
+last_modified_date: 2022-03-26
 ---
 <div align="center" markdown="1">
 # Kumpulan Notebook
@@ -14,19 +15,10 @@ permalink: /kumpulan-notebook
 {: .fs-5}
 </div>
 
-<div align="center" markdown="1">
-[Lihat Kumpulan Notebook via NBViewer](https://nbviewer.jupyter.org/github/taruma/hidrokit-nb/tree/master/notebook/){: .btn .btn-blue .fs-4 .mb-4 .mb-md-0 .mr-2 }
-</div>
-
 <div align="justify" markdown="1">
-Notebook di hidrokit-nb dibagi menjadi tiga kategori yaitu umum, hidrokit, dan demo. Pembagian kategori ini hanya berlaku untuk pengkategorian melalui halaman ini (jika melihat langsung dari _repo_ atau _NBViewer_ seluruh notebook disimpan dalam satu _folder_). Halaman ini diperbarui manual sehingga notebook yang telah diterima _pull request_-nya bisa saja tidak tampil di halaman ini. 
+Notebook di hidrokit-nb dibagi menjadi dua bagian yaitu bagian hidrokit yang terdiri dari laporan implementasi, manual subpaket hidrokit.contrib, dan manual paket hidrokit. Yang kedua adalah bagian umum yang berisikan notebook untuk penggunaan python dan arsip.
 
-Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk mendaftarkan notebook Anda di halaman ini. Ikuti panduan [Tambah _notebook_]({% link halaman/panduan/tambah-notebook.md %}) jika ingin menambahkan notebook Anda di halaman ini. Pastikan notebook anda sudah diunggah pada repo hidrokit-nb sesuai panduan [Unggah _notebook_]({% link halaman/panduan/mengunggah-notebook.md %})
-</div>
-
-<div align="center" markdown="1">
-[Unggah _Notebook_]({% link halaman/panduan/mengunggah-notebook.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Tambah _Notebook_]({% link halaman/panduan/tambah-notebook.md %}){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
+Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk mendaftarkan notebook Anda di halaman ini.
 </div>
 
 ---
@@ -41,49 +33,72 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 ## Legenda
 {: .no_toc .text-delta}
 
-<i class="fas fa-calendar-day"></i> `Tanggal`{: .text-delta} |
-<i class="fas fa-code-branch"></i> `Versi`{: .text-delta} |
-<i class="fas fa-book-open"></i> `Buka melalui NBViewer`{: .text-delta} |
-<i class="fab fa-github"></i> `Lihat di GitHub`{: .text-delta} |
-<i class="fas fa-download"></i> `Unduh notebook`{: .text-delta} |
-<i class="fab fa-google"></i> `Buka melalui Google Colab`{: .text-delta} |
-<i class="fas fa-user"></i> `Pemilik/Pembuat`{: .text-delta}
+- <i class="fas fa-calendar-day"></i> _Tanggal_{: .text-delta}
+- <i class="fas fa-code-branch"></i> _Versi_{: .text-delta}
+- <i class="fas fa-book-open"></i> _Buka melalui NBViewer_{: .text-delta}
+- <i class="fab fa-github"></i> _Lihat di GitHub_{: .text-delta}
+- _@author (username github)_{: .text-delta}
+- <i class="fas fa-download"></i> _Download (jika tersedia di repo)_{: .text-delta}
+
+{% assign col_imp = site.data.hidrokit | where: "category", "implementasi" | sort: "date" | reverse %}
+{% assign col_contrib = site.data.hidrokit | where: "category", "contrib" | sort: "title" %}
+{% assign col_main = site.data.hidrokit | where: "category", "main" | sort: "title" %}
+{% assign col_archive = site.data.general | where: "category", "arsip" | sort: "title" %}
+{% assign col_general = site.data.general | where: "category", "general" | sort: "date" | reverse %}
 
 ---
+
 <div align="center" markdown="1">
-## Umum <!-- ---------NOTEBOOK KATEGORI UMUM --------- -->
+## Laporan Implementasi
 {: .label .label-blue .fs-6 .mt-0}
-Kumpulan _notebook_ yang mendemonstrasikan kegunaan python yang dapat diterapkan pada bidang hidrologi
+Laporan Implementasi (LI) merupakan buku (jupyter notebook) yang memeragakan penggunaan python dan/atau machine learning pada topik sumberdaya air. Buku ini juga sebagai demonstrasi penggunaan paket hidrokit, yaitu proyek open-source paket python untuk analisis hidrologi.
 </div>
 
-{% include daftar_notebook.md source=site.data.umum %}
+{% include daftar_notebook.md source=col_imp %}
 
 ---
+
 <div align="center" markdown="1">
-## Hidrokit <!-- ---------NOTEBOOK KATEGORI HIDROKIT --------- -->
+## Manual Subpaket hidrokit.contrib
 {: .label .label-green .fs-6 .mt-0}
-Kumpulan _notebook_ yang berkaitan dengan kegunaan `hidrokit`
+Kumpulan _notebook_ manual untuk penggunaan fungsi pada subpaket `hidrokit.contrib`.
 </div>
 
-{% include daftar_notebook.md source=site.data.hidrokit %}
+{% include daftar_notebook.md source=col_contrib %}
 
 ---
+
 <div align="center" markdown="1">
-## Demo <!-- ---------NOTEBOOK KATEGORI DEMO --------- -->
-{: .label .label-yellow .fs-6 .mt-0}
-Kumpulan _notebook_ yang menerapkan python/hidrokit dalam kasus nyata/lapangan.
+## Manual hidrokit
+{: .label .label-green .fs-6 .mt-0}
+Kumpulan _notebook_ manual untuk penggunaan fungsi dan modul yang tersedia di `hidrokit` (main). 
+
+Pengembangan pada fungsi utama pada hidrokit dialihkan ke pengembangan pada subpaket .contrib sejak versi 0.3.x
+{: .text-delta .fs-2}
 </div>
 
-{% include daftar_notebook.md source=site.data.demo %}
+{% include daftar_notebook.md source=col_main %}
 
 ---
+
+<div align="center" markdown="1">
+## Umum
+{: .label .label-yellow .fs-6 .mt-0}
+Kumpulan _notebook_ umum yang memeragakan penggunaan python. 
+</div>
+
+{% include daftar_notebook.md source=col_general %}
+
+---
+
 <div align="center" markdown="1">
 ## Arsip
-{: .label .label-red .fs-6 .mt-0}
-Kumpulan _notebook_ yang sudah tidak digunakan/tidak layak pakai
+{: .label .label-red .text-delta .fs-6 .mt-0}
+Arsip notebook yang sudah kadaluarsa (outdated). 
+
 </div>
 
-{% include daftar_arsip.md %}
+{% include daftar_notebook.md source=col_archive %}
 
 <!-- Link -->
 [taruma]: https://github.com/taruma

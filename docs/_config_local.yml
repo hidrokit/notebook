@@ -22,7 +22,7 @@ search_enabled: true
 aux_links:
   "View on GitHub":
     - "//github.com/hidrokit/notebook"
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 heading_anchors: true
 

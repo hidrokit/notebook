@@ -4,6 +4,7 @@ title: Mengunggah notebook
 parent: Panduan
 # nav_order: 1
 permalink: /panduan/mengunggah-notebook
+last_modified_date: 2019-06-27
 ---
 
 Halaman ini merupakan panduan dalam mengunggah notebook ke repo hidrokit-nb. Tidak diperlukan pengetahuan Git/Github untuk mengunggah notebook melalui GitHub.
