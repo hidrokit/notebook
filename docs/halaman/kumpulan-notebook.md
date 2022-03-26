@@ -37,6 +37,7 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 - <i class="fas fa-code-branch"></i> _Versi_{: .text-delta}
 - <i class="fas fa-book-open"></i> _Buka melalui NBViewer_{: .text-delta}
 - <i class="fab fa-github"></i> _Lihat di GitHub_{: .text-delta}
+- <i class="far fa-file-pdf"></i> _Buka PDF (OneDrive)_{: .text-delta}
 - _@author (username github)_{: .text-delta}
 - <i class="fas fa-download"></i> _Download (jika tersedia di repo)_{: .text-delta}
 
@@ -52,6 +53,10 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 ## Laporan Implementasi
 {: .label .label-blue .fs-6 .mt-0}
 Laporan Implementasi (LI) merupakan buku (jupyter notebook) yang memeragakan penggunaan python dan/atau machine learning pada topik sumberdaya air. Buku ini juga sebagai demonstrasi penggunaan paket hidrokit, yaitu proyek open-source paket python untuk analisis hidrologi.
+
+Untuk laporan implementasi lebih baik di buka melalui komputer/laptop. Hindari membuka melalui browser di handphone, diketahui bisa membuat browser _crash_. Atau buka tautan untuk PDF.
+{: .text-delta .fs-2 .bg-red-100 .text-grey-lt-100}
+
 </div>
 
 {% include daftar_notebook.md source=col_imp %}
@@ -73,8 +78,8 @@ Kumpulan _notebook_ manual untuk penggunaan fungsi pada subpaket `hidrokit.contr
 {: .label .label-green .fs-6 .mt-0}
 Kumpulan _notebook_ manual untuk penggunaan fungsi dan modul yang tersedia di `hidrokit` (main). 
 
-Pengembangan pada fungsi utama pada hidrokit dialihkan ke pengembangan pada subpaket .contrib sejak versi 0.3.x
-{: .text-delta .fs-2}
+Pengembangan fungsi utama pada hidrokit dialihkan ke pengembangan pada subpaket .contrib sejak versi 0.3.x
+{: .text-delta .fs-2 .bg-red-100 .text-grey-lt-100}
 </div>
 
 {% include daftar_notebook.md source=col_main %}
