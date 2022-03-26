@@ -1,0 +1,148 @@
+# TEMPLATE
+# - title       : >-
+#     {{ Judul Singkat Notebook }}
+#   date        : {{ isi tanggal dengan format YYYY-MM-DD }}
+#   author      : {{ nama github }}
+#   version     : {{ versi notebook }}
+#   gist        : {{ isi true jika menggunakan gist.github}}
+#   gist_id     : {{ gist ID }}
+#   folder      : {{ folder di repo hidrokit/notebook }}
+#   notebook    : {{ nama berkas notebook tanpa .ipynb }}
+#   hidrokit    : {{ versi hidrokit jika ada }}
+#   category    : {{ kategori notebook ditulis dengan format [kategori1, kategori2, ...]}}
+
+- title       : >-
+    Demo Pos Hujan
+  date        : 2019-01-09
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : _old
+  notebook    : demo_pos_hujan
+  hidrokit    : 0.1.x
+  category    : [arsip, manual]
+  description : >-
+    Penggunaan dan penjelasan fungsi dalam modul `prepkit` (disinggung juga penggunaan `viewkit`)
+
+- title       : >-
+    Demo Jawa Barat
+  date        : 2019-01-09
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : _old
+  notebook    : demo_data_jawa_barat
+  hidrokit    : 
+  category    : [arsip, manual]
+  description : >-
+    Penggunaan `pandas` untuk mengolah data harian dari bmkg online untuk satu provinsi. 
+    Dalam notebook ini fokus dalam eksplorasi data di Jawa Barat.
+
+- title       : >-
+    Demo Metadata BMKG
+  date        : 2019-01-09
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : _old
+  notebook    : demo_metadata_bmkg
+  hidrokit    : 
+  category    : [arsip, manual]
+  description : >-
+    Dilakukan eksplorasi metadata (informasi stasiun) 
+    untuk seluruh wilayah Indonesia yang diperoleh dari BMKG online.
+
+- title       : >-
+    Prediksi Kualitas Air menggunakan Metode _Artificial Neural Networks_
+  date        : 2019-06-22
+  author      : taruma
+  version     : 1.1.0
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma-ann-ka
+  hidrokit    : 
+  category    : [arsip, demo]
+  description :
+
+- title       : >-
+    Menentukan kriteria berdasarkan total bulanan
+  date        : 2019-07-17
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_hk60_resample
+  hidrokit    : 
+  category    : [arsip, general]
+  description :
+
+- title       : >-
+    Contoh Penggunaan _Recurrent Neural Networks_ (LSTM)
+  date        : 2019-07-19
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_udemy_rnn_1_0_0
+  hidrokit    : 
+  category    : [arsip, general]
+  description :
+
+- title       : >-
+    Contoh Penggunaan _Self-Organizing Map_ (SOM)
+  date        : 2019-07-29
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_udemy_som
+  hidrokit    : 
+  category    : [arsip, general]
+  description :
+
+- title       : >-
+    Contoh Penggunaan _Self-Organizing Map_ (SOM) dan ANN
+  date        : 2019-07-29
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_udemy_som_megacasestudy
+  hidrokit    : 
+  category    : [arsip, general]
+  description :
+
+- title       : >-
+    Contoh Penggunaan Boltzmann Machine
+  date        : 2019-07-30
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_udemy_boltzmann
+  hidrokit    : 
+  category    : [arsip, general]
+  description :
+
+- title       : >-
+    Contoh Penggunaan AutoEncoder
+  date        : 2019-08-01
+  author      : taruma
+  version     : 1.0.0
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_udemy_autoencoders
+  hidrokit    : 
+  category    : [arsip, general]
+  description :
+

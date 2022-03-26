@@ -1,49 +1,391 @@
 # TEMPLATE
 # - title       : >-
-#     {{ judul singkat notebook}}
-#   notebook    : {{ nama berkas notebook tanpa .ipynb }}
+#     {{ Judul Singkat Notebook }}
 #   date        : {{ isi tanggal dengan format YYYY-MM-DD }}
-#   author      : {{ pengunggah }}
+#   author      : {{ nama github }}
 #   version     : {{ versi notebook }}
+#   gist        : {{ isi true jika menggunakan gist.github}}
+#   gist_id     : {{ gist ID }}
+#   folder      : {{ folder di repo hidrokit/notebook }}
+#   notebook    : {{ nama berkas notebook tanpa .ipynb }}
+#   hidrokit    : {{ versi hidrokit jika ada }}
+#   category    : {{ kategori notebook ditulis dengan format [kategori1, kategori2, ...]}}
+
+
+# LAPORAN IMPLEMENTASI
 
 - title       : >-
-    Tutorial hidrokit.prep.excel
-  notebook    : taruma_hidrokit_prep_excel
-  date        : 2019-07-13
-  author      : taruma
-  version     : 1.0.2
-
-- title       : >-
-    Tutorial hidrokit.prep.read
-  notebook    : taruma_hidrokit_prep_read
-  date        : 2019-07-13
-  author      : taruma
-  version     : 1.0.1
-
-- title       : >-
-    Tutorial hidrokit.prep.timeseries
-  notebook    : taruma_hidrokit_prep_timeseries
-  date        : 2019-07-13
-  author      : taruma
-  version     : 1.0.1
-
-- title       : >-
-    Tutorial hidrokit.viz.graph
-  notebook    : taruma_hidrokit_viz_graph
-  date        : 2019-07-13
-  author      : taruma
-  version     : 1.0.1
-
-- title       : >-
-    Tutorial hidrokit.viz.table
-  notebook    : taruma_hidrokit_viz_table
-  date        : 2019-07-13
-  author      : taruma
-  version     : 1.0.1
-
-- title       : >-
-    Prediksi Kualitas Air menggunakan Metode _Artificial Neural Networks_
-  notebook    : taruma_demo_ann_ka_2_0_0
+    LI-01: Single-Output Regression Neural Network pada kasus Prediksi Kualitas Air
   date        : 2019-07-13
   author      : taruma
   version     : 2.0.0
+  gist        : true
+  gist_id     : 12bf06ab7307340525eecf5b3c8beb9c
+  folder      : notebook
+  notebook    : taruma_demo_ann_ka_2_0_0
+  hidrokit    : 0.2.0
+  category    : [demo, hidrokit, implementasi]
+
+- title       : >-
+    LI-02: Prediksi Debit Aliran Menggunakan Long Short-Term Memory (LSTM)
+  date        : 2019-10-22
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 8186dba212875f6b3f1677a5e2f9a70f
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.2
+  category    : [demo, hidrokit, implementasi]
+
+- title       : >-
+    LI-03: Analisis Hidrologi dengan hidrokit
+  date        : 2020-01-16
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 4c1ed1212290965ecda056f45d7aaea2
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [demo, hidrokit, implementasi]
+
+- title       : >-
+    LI-04: Perbandingan Model Variasi Recurrent Neural Networks Pada Kasus Prediksi Debit Aliran
+  date        : 2020-02-11
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 9d1ef5c6d629c792bed0c3f68b324675
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [demo, hidrokit, implementasi]
+
+# HIDROKIT MANUAL
+
+- title       : >-
+    Mengolah berkas dari BMKG `.contrib.taruma.hk73`
+  date        : 2019-09-28
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : b00880905f297013f046dad95dc2e284
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.2
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Membuat tensor input untuk pemodelan LSTM/RNN `.contrib.taruma.hk53`
+  date        : 2019-09-26
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 50460ebfaab5a30c41e7f1a1ac0853e2
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.2
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Mengubah pivot table ke dataframe `.contrib.taruma.hk43`
+  date        : 2019-09-26
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : a9dd4ea61db2526853b99600909e9c50
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.2
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Mengekstrak informasi data jam-jaman dari excel `.contrib.taruma.hk79`
+  date        : 2019-11-29
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 05dab67fac8313a94134ac02d0398897
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.3
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Meringkas informasi data hujan jam-jaman `.contrib.taruma.hk84`
+  date        : 2019-12-09
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : cad07f29ffc025ba9e7801e752be3444
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.4
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Ambil dataset hujan harian dari excel `.contrib.taruma.hk88`
+  date        : 2022-03-18
+  author      : taruma
+  version     : 1.1.0
+  gist        : true
+  gist_id     : 6d48b3ec9d601019c15fb5833ae03730
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Perhitungan debit andalan menggunakan kurva durasi debit `.contrib.taruma.hk87`
+  date        : 2019-12-14
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 0b0ebf3ba12d4acf7cf11df905d2ec9c
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Pemodelan NRECA `.contrib.taruma.hk89`
+  date        : 2019-12-14
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 1502a7aa67cf074969d806cd3ffdf35c
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Kalibrasi Model (NRECA/FJMOCK) `.contrib.taruma.hk90`
+  date        : 2019-12-15
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 906e1577111208291e0725229c7d0a76
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Perhitungan curah hujan dengan metode poligon Thiessen `.contrib.taruma.hk99`
+  date        : 2019-12-17
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 8dd920bee9fa95cf6eba39cc9d694953
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Rekap dataset deret waktu `.contrib.taruma.hk98`
+  date        : 2022-03-11
+  author      : taruma
+  version     : 1.0.1
+  gist        : true
+  gist_id     : aca7f90c8fbb0034587809883d0d9e92
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Pemodelan F.J. Mock `.contrib.taruma.hk96`
+  date        : 2019-12-18
+  author      : taruma
+  version     : 1.1.0
+  gist        : true
+  gist_id     : ae5c0209ef19b088e3cd9dd22508af5c
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Upsampling dataset `.contrib.taruma.hk102`
+  date        : 2019-12-19
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 96c321175ecac3e51350ef4c94f3d7d4
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Perhitungan evapotranspirasi `.contrib.taruma.hk106`
+  date        : 2019-12-23
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 7f81cf0fea5250cfe47942b4e16a8a65
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.5
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Uji Outlier `.contrib.taruma.hk151`
+  date        : 2022-03-03
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 7bf2e4e1601ab8390d9919043eb87682
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Perhitungan Parameter Statistik `.contrib.taruma.hk158`
+  date        : 2022-03-24
+  author      : taruma
+  version     : 1.1.0
+  gist        : true
+  gist_id     : 6a0b0f9dd26359f6832fe12bab30fdc7
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Uji Kolmogorov-Smirnov `.contrib.taruma.hk140`
+  date        : 2022-03-16
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 5d16baf90016d8a08c6870b674226691
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Uji Chi-Square `.contrib.taruma.hk141`
+  date        : 2022-03-17
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : e250ab2685ba5b4c8facbf498cfb5cd8
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Distribusi Log Normal 2 Parameter `.contrib.taruma.hk124`
+  date        : 2022-03-23
+  author      : taruma
+  version     : 1.1.0
+  gist        : true
+  gist_id     : 5d3ab88893e56f895dc3f36ea19c3e60
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Distribusi Log Pearson Tipe III `.contrib.taruma.hk126`
+  date        : 2022-03-23
+  author      : taruma
+  version     : 1.1.0
+  gist        : true
+  gist_id     : 60725ffca91dc6e741daee9a738a978b
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Distribusi Gumbel `.contrib.taruma.hk127`
+  date        : 2022-03-23
+  author      : taruma
+  version     : 1.1.0
+  gist        : true
+  gist_id     : ffa77e6f50a19fa5d05ab10e27d3266a
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+- title       : >-
+    Distribusi Normal `.contrib.taruma.hk172`
+  date        : 2022-03-23
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 91b9fcd8fb92c12f4ea2639320ead116
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.3.7
+  category    : [hidrokit, manual, contrib]
+
+# HIDROKIT CORE FUNCTION
+
+- title       : >-
+    memperoleh dataframe dari excel `.prep.excel`
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.2
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_hidrokit_prep_excel
+  hidrokit    : 0.2.0
+  category    : [hidrokit, manual, main]
+
+- title       : >-
+    membaca informasi dari tabel `.prep.read`
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.1
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_hidrokit_prep_read
+  hidrokit    : 0.2.0
+  category    : [hidrokit, manual, main]
+
+- title       : >-
+    Memanipulasi dataset timeseries untuk penggunaan machine learning / ANN `.prep.timeseries`
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.1
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_hidrokit_prep_timeseries
+  hidrokit    : 0.2.0
+  category    : [hidrokit, manual, main]
+
+- title       : >-
+    Menampilkan dataset melalui bentuk grafik/plot `.viz.graph`
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.1
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_hidrokit_viz_graph
+  hidrokit    : 0.2.0
+  category    : [hidrokit, manual, main]
+
+- title       : >-
+    Menampilkan dataset melalui bentuk tabel `.viz.table`
+  date        : 2019-07-13
+  author      : taruma
+  version     : 1.0.1
+  gist        : false
+  gist_id     : 
+  folder      : notebook
+  notebook    : taruma_hidrokit_viz_table
+  hidrokit    : 0.2.0
+  category    : [hidrokit, manual, main]
