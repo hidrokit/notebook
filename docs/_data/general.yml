@@ -78,7 +78,7 @@
   folder      : notebook
   notebook    : taruma_hk60_resample
   hidrokit    : 
-  category    : [arsip, general]
+  category    : [general]
   description :
 
 - title       : >-
@@ -91,7 +91,7 @@
   folder      : notebook
   notebook    : taruma_udemy_rnn_1_0_0
   hidrokit    : 
-  category    : [arsip, general]
+  category    : [general]
   description :
 
 - title       : >-
@@ -104,7 +104,7 @@
   folder      : notebook
   notebook    : taruma_udemy_som
   hidrokit    : 
-  category    : [arsip, general]
+  category    : [general]
   description :
 
 - title       : >-
@@ -117,7 +117,7 @@
   folder      : notebook
   notebook    : taruma_udemy_som_megacasestudy
   hidrokit    : 
-  category    : [arsip, general]
+  category    : [general]
   description :
 
 - title       : >-
@@ -130,7 +130,7 @@
   folder      : notebook
   notebook    : taruma_udemy_boltzmann
   hidrokit    : 
-  category    : [arsip, general]
+  category    : [general]
   description :
 
 - title       : >-
@@ -143,6 +143,6 @@
   folder      : notebook
   notebook    : taruma_udemy_autoencoders
   hidrokit    : 
-  category    : [arsip, general]
+  category    : [general]
   description :
 

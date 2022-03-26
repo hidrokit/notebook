@@ -39,11 +39,11 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 - <i class="fab fa-github"></i> _Lihat di GitHub_{: .text-delta}
 - _@author (username github)_{: .text-delta}
 
-{% assign col_imp = site.data.hidrokit | where: "category", "implementasi" | sort: 'date' | reverse %}
-{% assign col_contrib = site.data.hidrokit | where: "category", "contrib" | sort: 'title' %}
-{% assign col_main = site.data.hidrokit | where: "category", "main" | sort: 'title' %}
-{% assign col_archive = site.data.general | where: "category", "arsip" | sort: 'title' %}
-{% assign col_general = site.data.general | where: "category", "general" | sort: 'title' %}
+{%- assign col_imp = site.data.hidrokit | where: "category", "implementasi" | sort: "date" | reverse -%}
+{%- assign col_contrib = site.data.hidrokit | where: "category", "contrib" | sort: "title" -%}
+{%- assign col_main = site.data.hidrokit | where: "category", "main" | sort: "title" -%}
+{%- assign col_archive = site.data.general | where: "category", "arsip" | sort: "title" -%}
+{%- assign col_general = site.data.general | where: "category", "general" | sort: "date" | reverse -%}
 
 ---
 
