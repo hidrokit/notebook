@@ -25,6 +25,7 @@
   notebook    : taruma_demo_ann_ka_2_0_0
   hidrokit    : 0.2.0
   category    : [demo, hidrokit, implementasi]
+  pdf         : https://1drv.ms/b/s!AmxSTa4UunElhoU27FZ3pMHVvWeMsA?e=ouC2KK
 
 - title       : >-
     LI-02: Prediksi Debit Aliran Menggunakan Long Short-Term Memory (LSTM)
@@ -37,6 +38,7 @@
   notebook    : 
   hidrokit    : 0.3.2
   category    : [demo, hidrokit, implementasi]
+  pdf         : https://1drv.ms/b/s!AmxSTa4UunElhoU1sISX0gc4BammwQ?e=MGHcwT
 
 - title       : >-
     LI-03: Analisis Hidrologi dengan hidrokit
@@ -49,6 +51,7 @@
   notebook    : 
   hidrokit    : 0.3.5
   category    : [demo, hidrokit, implementasi]
+  pdf         : https://1drv.ms/b/s!AmxSTa4UunElhoU3ehyoy45_RG6hjA?e=5wUb8d
 
 - title       : >-
     LI-04: Perbandingan Model Variasi Recurrent Neural Networks Pada Kasus Prediksi Debit Aliran
@@ -61,6 +64,7 @@
   notebook    : 
   hidrokit    : 0.3.5
   category    : [demo, hidrokit, implementasi]
+  pdf         : https://1drv.ms/b/s!AmxSTa4UunElhoVm7i0EuKdPkPlzVg?e=rjXNpf
 
 # HIDROKIT MANUAL
 

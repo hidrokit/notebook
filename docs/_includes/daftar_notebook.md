@@ -37,17 +37,24 @@ _{{ item.description }}_{: .text-epsilon}<br>
 {%- endcapture -%}
 {%- endif -%}
 
+{%- if item.pdf -%}
+{%- capture pdf_link -%}
+<a href="{{ item.pdf }}" download="{{ item.notebook }}.pdf"><i class="far fa-file-pdf"></i></a> \| 
+{%- endcapture -%}
+{%- endif -%}
+
 {% if item %}
-- **{{ item.title }}**  {{ dl_link }}<br>{{ desc }}
+- **{{ item.title }}** {{ dl_link }}<br>{{ desc }}
 <i class="fas fa-calendar-day"></i> _{{ item.date | date: "%d %b %Y" }}_{: .text-delta} \| 
 <i class="fas fa-code-branch"></i> _{{ item.version }}_{: .text-delta} \| 
 [<i class="fas fa-book-open"></i>]({{ nbv_link }}) \|
-[<i class="fab fa-github"></i>]({{ gh_link }}) \| 
+[<i class="fab fa-github"></i>]({{ gh_link }}) \| {{ pdf_link }}
 [@{{ item.author }}](https://github.com/{{ item.author }}){: .text-delta}
 {%- endif -%}
 
 {%- assign desc = nil -%}
 {%- assign dl_link = nil -%}
+{%- assign pdf_link = nil -%}
 
 {%- endfor -%}
 
