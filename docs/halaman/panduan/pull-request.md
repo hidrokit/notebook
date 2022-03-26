@@ -3,7 +3,7 @@ layout: default
 title: Pull Request
 parent: Panduan
 permalink: /panduan/pull-request
-last_modified_date: 2019-06-23
+last_modified_date: 2022-03-26
 ---
 
 Terima kasih telah melakukan _pull request_ sebelumnya. 🙏 Halaman ini ditujukan bagi Anda yang ingin mengunggah notebook lagi atau melakukan perubahan pada repo hidrokit. 
@@ -115,12 +115,3 @@ Dan menambah wawasan mengenai Git dan Github.
 </div>
 
 Dari sini Anda bisa melakukan proses pengunggahan notebook seperti di halaman mengunggah notebook, dengan melewati tahap _fork_.
-
----
-## Rebase/Merged Repository
-
-Langkah ini terjadi jika _repo_ Anda memiliki perubahan yang kemungkinan konflik dengan _repo_ hidrokit-nb. Konflik tersebut harus diatasi/dievaluasi secara manual. Anda setidaknya harus melakukan operasi rebase untuk menyetarakan `HEAD` dari _repo_ hidrokit-nb dengan _repo_ Anda. 
-
-Untuk langkah ini, Anda harus memiliki pengetahuan dan pengoperasian Git sehingga langkah ini tidak dianjurkan jika Anda hanya menggunakan _repo_ Anda untuk mengunggah notebook. 
-
-Bagi _software developer_ atau yang memiliki wawasan Git, dapat mengembangkan bagian ini. 🙏
