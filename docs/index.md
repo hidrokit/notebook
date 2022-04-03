@@ -64,10 +64,9 @@ SPONSOR
 </div>
 
 ---
-Proyek [hidrokit] dan [hidrokit-nb] dikelola oleh [@taruma]
+Proyek [hidrokit] dikelola oleh [@taruma]
 {: .no_toc .text-delta .fs-2}
 
 <!-- LINK -->
-[hidrokit]: https://github.com/hidrokit/hidrokit
-[hidrokit-nb]: https://github.com/hidrokit/notebook
+[hidrokit]: https://hidrokit.github.io
 [@taruma]: https://github.com/taruma
