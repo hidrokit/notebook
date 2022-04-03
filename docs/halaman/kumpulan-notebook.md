@@ -34,7 +34,8 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 {: .no_toc .text-delta}
 
 - <i class="fas fa-calendar-day"></i> _Tanggal_{: .text-delta}
-- <i class="fas fa-code-branch"></i> _Versi_{: .text-delta}
+- <i class="fas fa-code-branch"></i> _Versi Notebook_{: .text-delta}
+- <i class="fas fa-h-square"></i> _Versi hidrokit_{: .text-delta}
 - <i class="fas fa-book-open"></i> _Buka melalui NBViewer_{: .text-delta}
 - <i class="fab fa-github"></i> _Lihat di GitHub_{: .text-delta}
 - <i class="far fa-file-pdf"></i> _Buka PDF (OneDrive)_{: .text-delta}
@@ -42,7 +43,7 @@ Kami mengajak Anda untuk membuat isu atau melakukan _pull request_ sendiri untuk
 - <i class="fas fa-download"></i> _Download (jika tersedia di repo)_{: .text-delta}
 
 {% assign col_imp = site.data.hidrokit | where: "category", "implementasi" | sort: "date" | reverse %}
-{% assign col_contrib = site.data.hidrokit | where: "category", "contrib" | sort: "title" %}
+{% assign col_contrib = site.data.hidrokit | where: "category", "contrib" | sort: "hidrokit" | reverse %}
 {% assign col_main = site.data.hidrokit | where: "category", "main" | sort: "title" %}
 {% assign col_archive = site.data.general | where: "category", "arsip" | sort: "title" %}
 {% assign col_general = site.data.general | where: "category", "general" | sort: "date" | reverse %}
