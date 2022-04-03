@@ -43,10 +43,16 @@ _{{ item.description }}_{: .text-epsilon}<br>
 {%- endcapture -%}
 {%- endif -%}
 
+{%- if item.hidrokit -%}
+{%- capture hk_version -%}
+<i class="fas fa-h-square"></i> **{{ item.hidrokit }}**{: .text-epsilon} \|
+{%- endcapture -%}
+{%- endif -%}
+
 {% if item %}
 - **{{ item.title }}** {{ dl_link }}<br>{{ desc }}
 <i class="fas fa-calendar-day"></i> _{{ item.date | date: "%d %b %Y" }}_{: .text-delta} \| 
-<i class="fas fa-code-branch"></i> _{{ item.version }}_{: .text-delta} \| 
+<i class="fas fa-code-branch"></i> _{{ item.version }}_{: .text-delta} \| {{ hk_version }}
 [<i class="fas fa-book-open"></i>]({{ nbv_link }}) \|
 [<i class="fab fa-github"></i>]({{ gh_link }}) \| {{ pdf_link }}
 [@{{ item.author }}](https://github.com/{{ item.author }}){: .text-delta}
@@ -55,6 +61,7 @@ _{{ item.description }}_{: .text-epsilon}<br>
 {%- assign desc = nil -%}
 {%- assign dl_link = nil -%}
 {%- assign pdf_link = nil -%}
+{%- assign hk_version = nil -%}
 
 {%- endfor -%}
 
