@@ -66,6 +66,19 @@
   category    : [demo, hidrokit, implementasi]
   pdf         : https://1drv.ms/b/s!AmxSTa4UunElhoVm7i0EuKdPkPlzVg?e=rjXNpf
 
+- title       : >-
+    LI-05: Analisis Frekuensi dan Uji Kecocokan Distribusi
+  date        : 2022-04-05
+  author      : taruma
+  version     : 1.0.0
+  gist        : true
+  gist_id     : 560eecd2e55b5fdc3a357b6d3ac4f20c
+  folder      : 
+  notebook    : 
+  hidrokit    : 0.4.0
+  category    : [demo, hidrokit, implementasi]
+  pdf         : 
+
 # HIDROKIT MANUAL
 
 - title       : >-
