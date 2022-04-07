@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://hidrokit.github.io/notebook">
-    <img src="_assets/hidrokit-nb-800x200.jpg">
+    <img src="_assets/hidrokit-nb-800x200.png">
     </a>
 </div>
 
