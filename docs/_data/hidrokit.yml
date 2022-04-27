@@ -210,7 +210,7 @@
   gist_id     : aca7f90c8fbb0034587809883d0d9e92
   folder      : 
   notebook    : 
-  hidrokit    : 0.4.0
+  hidrokit    : 0.3.5
   category    : [hidrokit, manual, contrib]
 
 - title       : >-
@@ -234,7 +234,7 @@
   gist_id     : 96c321175ecac3e51350ef4c94f3d7d4
   folder      : 
   notebook    : 
-  hidrokit    : 0.3.5
+  hidrokit    : 0.4.0
   category    : [hidrokit, manual, contrib]
 
 - title       : >-
